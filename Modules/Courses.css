@@ -1,0 +1,17 @@
+.courses-container{
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+
+}
+
+.courses-content{
+
+    width: 100%;
+    height: 90%;
+    border-radius: 20px;
+    background: #FFFFFF4D;
+
+}
