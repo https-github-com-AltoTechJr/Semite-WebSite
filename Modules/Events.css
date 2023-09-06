@@ -1,5 +1,5 @@
-.events-container{
-    
+.events-container {
+
     display: flex;
     width: 100%;
     height: 100%;
@@ -7,7 +7,7 @@
 
 }
 
-.events-content{
+.events-content {
 
     width: 100%;
     height: 90%;
