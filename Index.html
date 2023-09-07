@@ -11,23 +11,70 @@
     <section class="section-authentication">
         <div class="wrapper-authentication">
             <div class="authentication-box">
-                <div class="form-box login">
+                <div class="form-box login" id="form-login">
                     <div class="authentication-title">
                         <h1>IV SEMITE</h1>
                     </div>
 
                     <form action="#">
                         <div class="authentication-input-box">
-                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <input type="email" id="login-email" name="login-email" placeholder="Email" required>
                         </div>
 
                         <div class="authentication-input-box">
-                            <input type="password" id="password" name="password" placeholder="Password" required>
+                            <input type="password" id="login-password" name="login-password" placeholder="Senha" required>
                         </div>
+
                         <button type="submit" class="authentication-btn">
                             Entrar
                         </button>
                     </form>
+                </div>
+
+                <div class="form-box register" id="form-register">
+                    <form action="#">
+                        <div class="authentication-title">
+                            <h1>IV SEMITE</h1>
+                        </div>
+                        <div class="authentication-input-box">
+                            <div class="authenttication-input">
+                                <div class="two-column-list">
+                                    <div>
+                                        <input type="text" id="name" name="name" placeholder="Nome Completo" required>
+                                    </div>
+                                    <div class="authenttication-input">
+                                        <input type="email" id="email" name="email" placeholder="Email" required>
+                                    </div>
+                                    <div class="authenttication-input">
+                                        <input type="text" id="institution" name="institution" placeholder="Instituição de Ensino" required>
+                                    </div>
+                                    <div class="info-li">
+                                        <input type="password" id="register-password" name="password" placeholder="Senha" required>
+                                        <p class="register-password">Crie uma senha com no mínimo 7 caracteres com pelo menos uma letra e um número</p>
+                                    </div class="authenttication-input">
+                                    <div class="authenttication-input">
+                                        <select name="select" id="select" aria-placeholder="Tipo de inscrição" required>
+                                            <option value="" disabled selected hidden>Tipo de Inscrição</option>
+                                            <!-- opções -->
+                                        </select>
+                                    </div>
+                                    <div class="authenttication-input">
+                                        <label for="myfile" class="custom-file-input">
+                                          <input type="file" id="myfile" name="myfile" required>
+                                          Enviar arquivo
+                                          <img src="/Assets/Vector-upload.png" alt="">
+                                        </label>
+                                        <p>Conta: XXXXX-XX <br> Agência: XXXXX <br> Banco: XXXXX <br> Pix: XXXXXXXXXXX </p>
+                                      </div>
+                                </div>
+                            </div>
+                            
+                        
+
+                    <button type="submit" class="authentication-btn">
+                        Entrar
+                    </button>
+                </form>
                 </div>
             </div>
              <div class="authentication-borders">
@@ -45,9 +92,13 @@
                         <span>Entrar com o Facebook</span>
                     </a>
                 </div>
-                <div class="register-box">
+                <div class="link-box register">
                     <h3>Ainda não tem uma conta?</h3>
-                    <a href="#">Clique aqui para criar uma conta</a>
+                    <a href="#" class="create-account-link">Clique aqui para criar uma conta</a>
+                </div>
+                <div class="link-box signup">
+                    <h3>Já tem uma conta?</h3>
+                    <a href="#" class="signup-link">Clique aqui para criar uma conta</a>
                 </div>
         </div>
     </section>

@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Deslocamento vertical inicial */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Deslocamento vertical final (0 significa que ele fica no lugar) */
+    }
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -43,7 +55,7 @@
 
 .authentication-title h1 {
     align-items: center;
-    font-size: 4vw;
+    font-size: 6vw;
     font-weight: 800;
 }
 
@@ -55,11 +67,10 @@
     display: flex;
 }
 
-.authentication-input-box input[type="email"],
-.authentication-input-box input[type="password"] {
+.authentication-input-box input {
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 45%;
     height: 44px;
     border: none;
@@ -68,7 +79,7 @@
 
 .authentication-box .authentication-btn {
     height: 8%;
-    width: 40%;
+    width: 30%;
     border-radius: 10px;
     border: none;
     background-color: #002d2d;
@@ -89,7 +100,8 @@
     align-items: center;
     justify-content: center;
     font-weight: 400;
-    font-size: 1.5vw
+    font-size: 1vw;
+    animation: fadeIn 0.5s ease-in-out forwards;
 }
 
 .authentication-borders .border-left, .border-right {
@@ -104,6 +116,7 @@
     width: 100%;
     align-items: center;
     gap: 2%;
+    animation: fadeIn 0.5s ease-in-out forwards;
 }
 
 .authentication-media-options a{
@@ -111,7 +124,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    height: 70%;   
+    height: 50px;   
     width: 335px;
     background-color: #FFF;
     text-align: center;
@@ -133,7 +146,7 @@
     margin-left: 5px;
 }
 
-.wrapper-authentication .register-box {
+.link-box {
     width: 100%;
     font-size: 14px;
     height: 15%;
@@ -143,8 +156,140 @@
     align-items: center;
 }
 
-.wrapper-authentication .register-box a {
+ .link-box a {
     text-decoration: none;
+}
+
+.wrapper-authentication .form-box.login {
+    display: block;
+}
+
+.wrapper-authentication.active .form-box.login {
+    display: none;
+}
+
+.wrapper-authentication .form-box.register {
+    display: none;
+}
+
+.wrapper-authentication.active .form-box.register {
+    display: block;
+}
+
+.wrapper-authentication .link-box.signup {
+    display: none;
+}
+
+.wrapper-authentication.active .authentication-media-options {
+    display: none;
+}
+
+.wrapper-authentication.active .authentication-borders {
+    display: none;
+}
+
+.wrapper-authentication.active .register-box {
+    display: none;
+}
+
+
+.form-box.register .authentication-input-box{
+    display: inline-block;
+    gap: 5%;
+    padding: 10px;
+    width: 100%;
+    height: 0%;
+}
+
+.form-box.register .authentication-input-box input {
+    margin: 10px;
+    width: 100%;
+}
+
+.two-column-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.two-column-list > div {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.authentication-input-box .info-li {
+    display: flex;
+    flex-direction: column;
+    font-size: 45%;
+}
+
+.authentication-input-box .upload-li p{
+    text-align: left;
+}
+
+.authentication-input-box select {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    justify-content: center; 
+    color: #C1C1C1;
+}
+
+.custom-file-input {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    color: #C1C1C1;
+  }
+
+  .authenttication-input.authenttication-input p {
+    font-size: 10px;
+    text-align: left;
+  }
+  
+  .custom-file-input input[type="file"] {
+    display: none;
+  }
+  
+  .custom-file-input:hover {
+    background-color: #ddd;
+  }
+  
+  input::placeholder {
+    color: #C1C1C1;
+}
+
+.form-box.register {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.form-box.register .authentication-input-box {
+    display: inline-block;
+    gap: 5%;
+    padding: 10px;
+    width: 100%;
+    height: 0%;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.form-box.login {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out forwards; 
+}
+
+.form-box.login .authentication-input-box  {
+    display: inline-block;
+    gap: 5%;
+    padding: 10px;
+    width: 100%;
+    height: 0%;
+    animation: fadeIn 0.5s ease-in-out forwards;
 }
 
 @media screen and (max-width: 768px) {
@@ -161,17 +306,17 @@
     }
   
     .authentication-box .authentication-title h1 {
-      font-size: 6vw; 
+      font-size: 10vw; 
     }
   
     .authentication-input-box input[type="email"],
     .authentication-input-box input[type="password"] {
-      width: 70%;
+      width: 60%;
       margin-bottom: 10px; 
     }
   
     .authentication-box .authentication-btn {
-      width: 60%;
+      width: 45%;
       font-size: 3vw; 
     }
   
@@ -189,7 +334,7 @@
       font-size: 3vw; 
     }
 
-    .wrapper-authentication .register-box {
+    .register-box {
         width: 100%;
         font-size: 10px;
         height: 15%;
