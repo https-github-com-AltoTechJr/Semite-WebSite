@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../Modules/CssBody.css">
+    <link rel="stylesheet" href="../Modules/Header.css">
     <link rel="stylesheet" href="../Modules/Welcome.css">
     <link rel="stylesheet" href="../Modules/Events.css">
     <link rel="stylesheet" href="../Modules/Courses.css">
@@ -15,14 +16,36 @@
 <body>
 
     <header class="container">
-        <nav>
-            <ul>
-                <li>Nav</li>
+        <nav class="Header-nav">
+            <div class="logo-container">
+                IV SEMIC
+            </div>
+            <ul class="webmenu">
+                <li class="nav-item2 active" id="Search-inicio"><a href="#welcome" class="nav-link"><i
+                            class="fa-solid fa-house"></i>
+                        <p>Início</p>
+                    </a></li>
+                <li class="nav-item2" id="Search-programação"><a href="#events" class="nav-link"><i
+                            class="fa-regular fa-calendar"></i>
+                        <p>Programação</p>
+                    </a></li>
+                <li class="nav-item2" id="Search-minicursos"><a href="#short-courses" class="nav-link"><i
+                            class="fa-solid fa-award"></i>
+                        <p>Minicursos</p>
+                </li>
+                <li class="nav-item2" id="Search-Trabalhos"><a href="#work-submission" class="nav-link"><i
+                            class="fa-solid fa-briefcase"></i>
+                        <p>Trabalhos</p>
+                    </a></li>
             </ul>
+
+            <div id="Header-user"><i class="fa-regular fa-circle-user"></i></div>
+
         </nav>
     </header>
+
     <main>
-        <section id="welcome">
+        <section class="welcome" id="welcome">
             <div class="container">
                 <div class="welcome-container">
                     <div class="welcome-content">
@@ -31,17 +54,328 @@
                 </div>
             </div>
         </section>
-        <section id="events">
+        <section class="events" id="events">
             <div class="container">
                 <div class="events-container">
                     <div class="events-content">
 
+                        <p id="top-section-crono-title">Programação</p>
+                        <div class="conteiner-prog">
+                            <nav data-aos="zoom-in" class="Prog-events-day">
+                                <ul class="sub-navigation-button">
+                                    <li class="day-button active" data-target="event-1" onclick="handleItemClick(this)">
+                                        04 Dez <p id="day-button-week">Segunda-feira</p>
+                                    </li>
+                                    <li class="day-button" data-target="event-2" onclick="handleItemClick(this)">05 Dez
+                                        <p id="day-button-week">
+                                            Terça-feira</p>
+                                    </li>
+                                    <li class="day-button" data-target="event-3" onclick="handleItemClick(this)">06 Dez
+                                        <p id="day-button-week">
+                                            Quarta-feira</p>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div data-aos="fade-right" class="Prog-events-fuso">
+                                <div class="Event-day active" id="event-1">
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            8:00 - 9:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Credenciamento
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            9:00 - 11:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Mesa Redonda
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            11:00 - 14:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Intervalo
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            14:00 - 16:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Palestra
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            16:00 - 18:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Trabalhos Científicos
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            16:00 - 18:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Maratona de Pentest
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            18:00 - 19:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Intervalo
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            19:00 - 20:30
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Abertura - Momento Cultural
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            20:30 - 21:30
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Coffee Break
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="Event-day" id="event-2">
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            8:00 - 12:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Credenciamento
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            8:00 - 12:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Minicursos
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Locais: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            12:00 - 14:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Intervalo
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            14:00 - 16:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Palestra
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            16:00 - 18:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Trabalhos Científicos
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            18:00 - 21:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Minicurso
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            16:00 - 21:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Hackaton
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            21:00 - 22:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            ECOP Games - Madrugão
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="Event-day" id="event-3">
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            8:00 - 9:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Credenciamento
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            8:00 - 12:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            olimpíada de Programação
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            9:00 - 12:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Minicursos
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            12:00 - 14:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Intervalo
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            14:00 - 16:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Palestra
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            16:00 - 18:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Trabalhos Científicos
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            16:00 - 18:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Pitch do Hackaton
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            18:00 - 21:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Minicurso
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            19:00 - 21:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Palestra
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            21:00 - 22:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            ECOP Games - Madrugão
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
 
-        <section id="short-courses">
+        <section class="short-courses" id="short-courses">
             <div class="container">
                 <div class="courses-container">
                     <div class="courses-content">
@@ -51,7 +385,7 @@
             </div>
         </section>
 
-        <section id="work-submission">
+        <section class="work-submission" id="work-submission">
             <div class="container">
                 <div class="work-container">
                     <div class="work-content">
@@ -61,7 +395,11 @@
             </div>
         </section>
     </main>
-    <script src="./js/Index.js"></script>
+    <script src="../js/Index.js"></script>
+    <script src="../Js/Header.js"></script>
+    <script src="../Js/Events.js"></script>
+    <script src="https://kit.fontawesome.com/d63b95226d.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
