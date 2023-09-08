@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
 
     <title>SEMITE-WEBSITE</title>
 </head>
+
 <body>
     <section class="section-authentication">
         <div class="wrapper-authentication">
@@ -22,7 +24,8 @@
                         </div>
 
                         <div class="authentication-input-box">
-                            <input type="password" id="login-password" name="login-password" placeholder="Senha" required>
+                            <input type="password" id="login-password" name="login-password" placeholder="Senha"
+                                required>
                         </div>
 
                         <button type="submit" class="authentication-btn">
@@ -46,62 +49,67 @@
                                         <input type="email" id="email" name="email" placeholder="Email" required>
                                     </div>
                                     <div class="authenttication-input">
-                                        <input type="text" id="institution" name="institution" placeholder="Instituição de Ensino" required>
+                                        <input type="text" id="institution" name="institution"
+                                            placeholder="Instituição de Ensino" required>
                                     </div>
-                                    <div class="info-li">
-                                        <input type="password" id="register-password" name="password" placeholder="Senha" required>
-                                        <p class="register-password">Crie uma senha com no mínimo 7 caracteres com pelo menos uma letra e um número</p>
+                                    <div class="authenttication-input">
+                                        <input type="password" id="register-password" name="password"
+                                            placeholder="Senha" required>
+                                        <p class="info-text-password">Crie uma senha com no mínimo 7 caracteres com ao
+                                            menos uma letra e um número</p>
                                     </div class="authenttication-input">
                                     <div class="authenttication-input">
                                         <select name="select" id="select" aria-placeholder="Tipo de inscrição" required>
                                             <option value="" disabled selected hidden>Tipo de Inscrição</option>
-                                            <!-- opções -->
+                                            <option value="aluno-graduacao">Aluno de Graduação</option>
                                         </select>
                                     </div>
-                                    <div class="authenttication-input">
-                                        <label for="myfile" class="custom-file-input">
-                                          <input type="file" id="myfile" name="myfile" required>
-                                          Enviar arquivo
-                                          <img src="/Assets/Vector-upload.png" alt="">
+                                    <div class="authenttication-input file">
+                                        <label for="myfile" class="custom-file-input" id="fileInput">
+                                            <input type="file" id="myfile" name="myfile" required>
+                                            <p class="file-text-input">Enviar arquivo</p>
+                                            <img src="/Assets/Vector-upload.png" alt="">
                                         </label>
-                                        <p>Conta: XXXXX-XX <br> Agência: XXXXX <br> Banco: XXXXX <br> Pix: XXXXXXXXXXX </p>
-                                      </div>
+                                        <p class="info-text-file">Conta: XXXXX-XX <br> Agência: XXXXX <br> Banco: XXXXX
+                                            <br> Pix: XXXXXXXXXXX</p>
+                                    </div>
                                 </div>
                             </div>
-                            
-                        
 
-                    <button type="submit" class="authentication-btn">
-                        Entrar
-                    </button>
-                </form>
+
+
+                            <button type="submit" class="authentication-btn">
+                                Entrar
+                            </button>
+                    </form>
                 </div>
             </div>
-             <div class="authentication-borders">
-                    <div class="border-left"></div>
-                    Ou se preferir
-                    <div class="border-right"></div>
-                </div>
-                <div class="authentication-media-options">
-                    <a href="#">
-                        <img src="/Assets/flat-color-icons_google.png" alt="">
-                        <span>Entrar com o Google</span>
-                    </a>
-                    <a href="#">
-                        <img src="/Assets/logos_facebook.png" alt="">
-                        <span>Entrar com o Facebook</span>
-                    </a>
-                </div>
-                <div class="link-box register">
-                    <h3>Ainda não tem uma conta?</h3>
-                    <a href="#" class="create-account-link">Clique aqui para criar uma conta</a>
-                </div>
-                <div class="link-box signup">
-                    <h3>Já tem uma conta?</h3>
-                    <a href="#" class="signup-link">Clique aqui para criar uma conta</a>
-                </div>
+            <div class="authentication-borders">
+                <div class="border-left"></div>
+                Ou se preferir
+                <div class="border-right"></div>
+            </div>
+            <div class="authentication-media-options">
+                <a href="#">
+                    <img src="/Assets/flat-color-icons_google.png" alt="">
+                    <span>Entrar com o Google</span>
+                </a>
+                <a href="#">
+                    <img src="/Assets/logos_facebook.png" alt="">
+                    <span>Entrar com o Facebook</span>
+                </a>
+            </div>
+            <div class="link-box register">
+                <h3>Ainda não tem uma conta?</h3>
+                <a href="#" class="create-account-link">Clique aqui para criar uma conta</a>
+            </div>
+            <div class="link-box signup">
+                <h3>Já tem uma conta?</h3>
+                <a href="#" class="signup-link">Clique aqui para criar uma conta</a>
+            </div>
         </div>
     </section>
     <script src="/Js/Authentication.js"></script>
 </body>
+
 </html>
