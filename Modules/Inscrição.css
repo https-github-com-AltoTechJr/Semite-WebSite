@@ -13,47 +13,114 @@
     width: 100%;
     height: 85%;
     flex-direction: column;
-    align-items: center;
 
 }
 
-.Inscrição-Event-data{
+.Inscrição-Event-data {
 
     display: flex;
-    width: 95%;
+    width: 100%;
     height: 30%;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .Inscrição-Event-data::before {
     content: "";
-    width: 8px; /* Largura da borda direita */
+    width: 8px;
+    /* Largura da borda direita */
     height: 100%;
-    background-color: #5DCCC8; /* Cor da borda direita */
+    background-color: #5DCCC8;
+    /* Cor da borda direita */
     border-radius: 10px;
 }
 
-#title-Inscrição{
+#title-Inscrição {
 
+    display: flex;
     font-weight: 600;
     font-size: 40px;
+    justify-content: center;
 }
 
-.text-data{
+.text-data {
 
     width: 95%;
     list-style: none;
 }
 
-#Text-1{
+#Text-1 {
 
     font-weight: 600;
     font-size: 24px;
 }
 
-.Text-2{
+.Text-2 {
 
     font-weight: 600;
     font-size: 20px;
     color: #757575;
+}
+
+.register {
+    width: 100%;
+    height: 55%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.register-content {
+    width: 80%;
+}
+
+.register-emails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-box-name {
+    width: 100%;
+}
+
+.register-box-email {
+    width: 45%;
+}
+
+.form-register input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 44px;
+    width: 100%;
+    justify-content: center;
+}
+
+.form-register {
+
+    width: 100%;
+    height: 90%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+#register-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#register-btn button {
+    background: #14302F;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 300px;
+    height: 80px
 }
