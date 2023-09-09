@@ -94,6 +94,7 @@
     height: 44px;
     width: 100%;
     justify-content: center;
+    cursor: pointer;
 }
 
 .form-register {
@@ -112,6 +113,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 #register-btn button {
@@ -119,8 +121,24 @@
     border: none;
     color: #fff;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 800;
     border-radius: 20px;
-    width: 300px;
-    height: 80px
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    margin: 0 10px;
+}
+#register-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid #14302F;
+    color: #14302F;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 20px;
+    width: 250px;
+    height: 60px;
+    margin: 0 10px;
 }
