@@ -77,26 +77,27 @@
     gap: 2%;
     justify-content: center;
     display: flex;
+    flex-direction: column;
 }
 
 .authentication-input-box input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    width: 45%;
+    width: 50%;
     height: 44px;
     border: none;
     justify-content: center;
 }
 
 .authentication-box .authentication-btn {
-    height: 8%;
+    height: 50px;
     width: 30%;
     border-radius: 10px;
     border: none;
     background-color: #002d2d;
     color: #FFF;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 600;
     transition: background-color 0.3s ease;
 }
@@ -161,7 +162,7 @@
 
 .link-box {
     width: 100%;
-    font-size: 14px;
+    font-size: 1vw;
     height: 15%;
     display: flex;
     flex-direction: column;
@@ -211,7 +212,7 @@
     gap: 5%;
     padding: 10px;
     width: 100%;
-    height: 0%;
+    height: auto;
 }
 
 .form-box.register .authentication-input-box input {
@@ -239,18 +240,20 @@
     border: none;
     justify-content: center;
     color: #C1C1C1;
-    margin-bottom: 140px;
+    margin-bottom: 20%;
 }
 
 .custom-file-input {
     margin-left: 10px;
+    height: auto;
     display: flex;
-    justify-content: flex-start;
-    width: 50%;
-    height: 50px;
+    width: 60%;
     background-color: #fff;
     border-radius: 10px;
+    align-items: center;
     color: #C1C1C1;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .authenttication-input.file {
@@ -258,35 +261,25 @@
 }
 
 .info-text-password {
-    font-size: 10px;
-    margin-left: 3%;
+    display: none;
+    font-size: 0.5vw;
+    margin-left: 5%;
     text-align: left;
     position: absolute;
-    z-index: 3;
-    display: none;
     opacity: 0;
     transform: translateY(-100%);
     animation: slideDown 0.5s ease-in-out forwards;
 }
 
 .info-text-file {
-    margin-top: 5px;
-    font-size: 10px;
-    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 0.5vw;
+    margin-left: 7%;
     text-align: left;
-    opacity: 0;
-    transform: translateY(-100%);
-    animation: slideDown 0.5s ease-in-out forwards;
-}
-
-.custom-file-input img {
-    height: 60%;
-    width: 13%;
-    margin: 5px;
 }
 
 .authenttication-input.authenttication-input .file-text-input {
-    font-size: 15px;
+    font-size: 0.9vw;
     margin: 10px 20px;
 }
 
@@ -330,6 +323,12 @@ input::placeholder {
     animation: fadeIn 0.5s ease-in-out forwards;
 }
 
+.custom-file-input img {
+    margin-right: 5%;
+    height: auto;
+    width: 10%;
+}
+
 @media screen and (max-width: 768px) {
     .section-authentication {
         justify-content: center;
@@ -349,13 +348,13 @@ input::placeholder {
 
     .authentication-input-box input[type="email"],
     .authentication-input-box input[type="password"] {
-        width: 60%;
-        margin-bottom: 10px;
+        width: 80%;
+        margin-bottom: 5px;
     }
 
     .authentication-box .authentication-btn {
-        width: 45%;
-        font-size: 3vw;
+        width: 40%;
+        font-size: 4vw;
     }
 
     .authentication-borders {
@@ -364,24 +363,43 @@ input::placeholder {
 
     .authentication-borders .border-left,
     .border-right {
-        width: 25%;
+        width: 20%;
     }
 
     .authentication-media-options a {
-        width: 70%;
+        width: 50%;
         margin: 5px 0;
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .register-box {
         width: 100%;
-        font-size: 10px;
-        height: 15%;
+        font-size: 8px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
+    .custom-file-input {
+        width: 80%;
+        height: 40px;
+    }
+
+    .info-text-file {
+        font-size: 1vw;
+        margin-left: 10%;
+    }
+
+    .authenttication-input.authenttication-input .file-text-input {
+        font-size: 2vw;
+    }
+
+    .info-text-password {
+        font-size: 1.5vw;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {}
