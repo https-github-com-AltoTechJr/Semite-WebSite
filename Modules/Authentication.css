@@ -161,17 +161,17 @@
 }
 
 .link-box {
-    width: 100%;
+    margin-top: 2%;
+    height: auto;
+    max-width: 100%; 
     font-size: 1vw;
-    height: 15%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .link-box a {
-    font-size: 0.7vw;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 1;
     text-decoration: none;
 }
 
@@ -192,6 +192,18 @@
 }
 
 .wrapper-authentication .link-box.signup {
+    display: block;
+}
+
+.wrapper-authentication.active .link-box.register {
+    display: block;
+}
+
+.wrapper-authentication .link-box.register {
+    display: none;
+}
+
+.wrapper-authentication.active .link-box.signup {
     display: none;
 }
 
@@ -210,8 +222,6 @@
 
 .form-box.register .authentication-input-box {
     display: inline-block;
-    gap: 5%;
-    padding: 10px;
     width: 100%;
     height: auto;
 }
@@ -235,7 +245,7 @@
 
 .authentication-input-box select {
     margin-left: 10px;
-    padding: 10px;
+    padding: 12px;
     border-radius: 10px;
     width: 100%;
     border: none;
@@ -246,9 +256,9 @@
 
 .custom-file-input {
     margin-left: 10px;
-    height: 40px;
+    height: 45px;
     display: flex;
-    width: 60%;
+    width: 70%;
     background-color: #fff;
     border-radius: 10px;
     align-items: center;
@@ -285,7 +295,7 @@
 }
 
 .authenttication-input.authenttication-input .file-text-input {
-    font-size: 0.9vw;
+    font-size: 13px;
     margin: 10px 20px;
 }
 
@@ -341,11 +351,28 @@ input::placeholder {
         background: url(/Assets/background.png) no-repeat;
         background-size: cover;
         background-position: center;
+        align-items: center;
+        display: flex;
     }
 
     .wrapper-authentication {
         width: 90%;
         border-radius: 30px;
+        max-width: 90%;
+        margin: auto;
+        height: auto;
+    }
+
+    .authentication-box {
+        flex: 1;
+    }
+
+    .authentication-media-options {
+        flex: 0;
+    }
+
+    .link-box {
+        flex: 0;
     }
 
     .authentication-box .authentication-title h1 {
@@ -359,11 +386,24 @@ input::placeholder {
 
     .authentication-box .authentication-btn {
         width: 40%;
-        font-size: 4vw;
+        font-size: 3.2vw;
+        height: 50px;
+    }
+
+    .authentication-box .authentication-btn.signup{
+        margin: 20px;
     }
 
     .authentication-borders {
         font-size: 3vw;
+    }
+
+    .authentication-borders {
+        margin-bottom: 20px;
+    }
+
+    .authentication-borders {
+       font-size: 2.5vw;
     }
 
     .authentication-borders .border-left,
@@ -383,28 +423,88 @@ input::placeholder {
         height: auto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
-    .custom-file-input {
-        width: 80%;
-        height: 40px;
-    }
+  
 
-    .info-text-file {
+    .info-text-password {
         font-size: 1vw;
-        margin-left: 10%;
+        position: relative;
+        margin-top: 3px;
     }
 
-    .authenttication-input.authenttication-input .file-text-input {
+    .link-box {
+        margin-top: 0px;
+        font-size: 2vw;
+        padding-bottom: 10px;
+    }
+    
+    .link-box a {
         font-size: 2vw;
     }
 
-    .info-text-password {
-        font-size: 1.5vw;
+    .authentication-media-options a {
+        height: 40px;
+        width: 50%;
+        font-size: 1.9vw;
+    }
+    
+    .authentication-media-options a:hover {
+        background-color: #E0E0E0;/
+    }
+    
+    .authentication-media-options img {
+        height: 50%;
     }
 
+    .two-column-list>div {
+        width: 80%;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    .two-column-list input {
+        height: 10%;
+    }
+
+    .two-column-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .authenttication-input:nth-child(2) {
+        order: -4;
+    }
+
+    .authenttication-input:nth-child(4) {
+        order: -3;
+    }
+
+    .authentication-input-box select {
+        margin-bottom: 0px;
+        margin: 0px;
+        height: 10%;
+    }
+
+    .form-box.register .authentication-input-box input {
+        margin: 0px;
+    }
+
+    .custom-file-input {
+        margin: 0px;
+        height: 10%;
+    }
+
+    .info-text-file {
+        margin-top: 2%;
+        font-size: 1vw;
+        margin-left: 2%;
+        text-align: left;
+    }
+    
+
 }
+
 
 @media screen and (max-width: 1024px) {}
