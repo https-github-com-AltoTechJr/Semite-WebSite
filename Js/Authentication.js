@@ -1,5 +1,10 @@
 const wrapperauthentication = document.querySelector('.wrapper-authentication');
 const createaccountlink = document.querySelector('.create-account-link');
+const passwordField = document.getElementById('register-password');
+const infoTextPassword = document.querySelector('.info-text-password');
+const select = document.getElementById('select');
+const fileInput = document.querySelector('.authenttication-input.file');
+const customFileInput = document.querySelector('.custom-file-input');
 
 createaccountlink.onclick = (event) => {
     event.preventDefault();
@@ -9,21 +14,19 @@ createaccountlink.onclick = (event) => {
     } else {
         wrapperauthentication.classList.add('active');
     }
-}
-
-const passwordField = document.getElementById('register-password');
-const infoTextPassword = document.querySelector('.info-text-password');
+};
 
 passwordField.addEventListener('click', () => {
     infoTextPassword.style.display = 'block';
+    if (customFileInput.style.marginTop !== '30px') {
+        customFileInput.style.marginTop = '30px'; 
+    }
 });
 
 passwordField.addEventListener('blur', () => {
     infoTextPassword.style.display = 'none';
+    customFileInput.style.marginTop = '0';
 });
-
-const select = document.getElementById('select');
-const fileInput = document.querySelector('.authenttication-input.file');
 
 select.addEventListener('change', function () {
     if (select.value === 'aluno-graduacao') {
@@ -32,4 +35,3 @@ select.addEventListener('change', function () {
         fileInput.style.display = 'none';
     }
 });
-
