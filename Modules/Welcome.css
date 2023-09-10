@@ -10,10 +10,10 @@
 
 .welcome-content {
     width: 100%;
-    height: 90%;
+    height: 80%;
     border-radius: 20px;
     background: #FFFFFF4D;    
- display: flex;
+    display: flex;
     flex-direction: column;
     align-items: stretch;
 }
