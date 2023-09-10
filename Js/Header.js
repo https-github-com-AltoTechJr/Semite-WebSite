@@ -106,5 +106,15 @@ window.addEventListener('resize', () => {
     }
 });
 
+navItems.forEach(item => {
+    item.addEventListener('click', () => {
+        Resmenu.style.height = "0vh";
+        fadeOut(navitems);
+        fadeOut(textmobile);
+        isExpanded = false;
+        Menubtn.classList.remove('fa-xmark');
+        Menubtn.classList.add('fa-bars-staggered');
+    });
+});
 
 
