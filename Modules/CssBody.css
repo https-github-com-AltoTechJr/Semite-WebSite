@@ -130,7 +130,10 @@ section {
 
     .Header-nav {
         max-width: 720px;
+        height: 10vh;
     }
+
+    
 }
 
 @media screen and (max-width: 576px) {
