@@ -1,15 +1,35 @@
+#container-header{
+
+    position: absolute;
+    transition: height 0.5s ease;
+    background: #14302F;
+    top: 70%;
+    width: 100%;
+    height: 0vh;
+    
+
+}
+
 .Header-nav a{
     display: flex;
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
+.Header-nav a i{
+
+    margin: 0 5px;
+}
 .Header-nav a p{
 
-    margin: 0 10px;
+    margin: 0 5px;
 }
 .nav-item2 i{
 
+    font-size: 30px;
+}
+.nav-item i{
+    
     font-size: 30px;
 }
 .webmenu{
@@ -21,19 +41,30 @@
 
 .webmenu li{ 
 
-    height: 100%;
+    height: 15vh;
     display: flex;
     align-items: center;
     
 }
-#Header-user{
 
-    display: flex;
-    align-items: center;
+.Nav-Itens{
+    display: none;
+    transition: .5s;
+}
+
+.mobile-menu{
+    
+    list-style: none;
+
+}
+#Header-menu-mobile{
+
+    display: none;
     font-size: 30px;
     margin-right: 2%;
 
 }
+
 .logo-container{
     display: flex;
     align-items: center;
@@ -41,12 +72,11 @@
     margin-left: 2%;
 }
 
-#Header-user i:hover{
+#Header-menu-mobile i:hover{
 
     color: #5DCCC8;
 
 }
-
 .nav-item2{
     background: linear-gradient(to right, #5DCCC8 0%, #5DCCC8 100%);
     background-size: 0% 2px;
@@ -71,4 +101,99 @@
 .nav-item2 {
     margin: 0 15px;
     
+}
+
+
+
+.nav-item.active a {
+    color: #5DCCC8;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.nav-item {
+    padding: 15px;
+    
+}
+
+@media screen and (max-width: 1400px) {
+    
+}
+
+@media screen and (max-width: 1200px) {
+   
+}
+
+@media screen and (max-width: 992px) {
+
+    .nav-item2 i {
+        font-size: 24px;
+    }
+    .Header-nav a {
+        font-size: 20px;
+    }
+    .logo-container {
+       
+        font-size: 20px;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    
+    .Nav-Itens{
+
+        width: 100%;
+        height: 100%;
+        
+
+    }
+
+    .mobile-menu{
+    width: 100%;
+    height: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    }
+
+    .webmenu {
+    
+        display: none;
+    }
+
+    #name-logo-mobile{
+        
+        width: 100%;    
+        margin-top: 20%;
+        justify-content: center;
+        color: #FFFFFF33;
+        display: none;
+        
+    }
+
+    #text-mobile{
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #Header-menu-mobile{
+        display: initial;
+    }
+
+    .nav-item2{
+
+        background-size: 0% 0px;
+    }
+
+    
+}
+
+@media screen and (max-width: 576px) {
+
 }

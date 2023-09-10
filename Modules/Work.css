@@ -19,27 +19,30 @@
     height: 80%;
     border-radius: 20px;
     background: #FFFFFF4D;
-    
+
     text-align: center;
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.work-content h2{
+.work-content h2 {
     color: #F1F1F1;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
-    line-height: 140%; /* 56px */
+    line-height: 140%;
+    /* 56px */
 }
-.line-up{
+
+.line-up {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 3rem;
 }
-.work-content-p{
+
+.work-content-p {
     color: #FFF;
     width: 744px;
     padding: 1rem 0rem 1rem 1rem;
@@ -50,23 +53,29 @@
     font-weight: 400;
 
 }
+
 .work-content-p :nth-child(1) {
     font-size: 30px;
-    line-height: 140%; /* 42px */
+    line-height: 140%;
+    /* 42px */
 }
+
 .work-content-p :nth-child(2) {
-    
+
     font-size: 18px;
-    line-height: 140%; /* 25.2px */
+    line-height: 140%;
+    /* 25.2px */
 }
-.work-conttent-button{
+
+.work-conttent-button {
     color: #FFF;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-right: 2rem;
 }
-.work-conttent-button button{
+
+.work-conttent-button button {
     width: 300px;
     height: 79.646px;
     flex-shrink: 0;
@@ -76,12 +85,13 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 800;
-    line-height: 140%; 
+    line-height: 140%;
     border: solid;
     border-radius: 1rem;
-    
+
 }
-.work-conttent-button a{
+
+.work-conttent-button a {
     color: white;
     text-decoration: auto;
 }
