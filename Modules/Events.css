@@ -175,10 +175,7 @@ justify-content: center;
 
   @media screen and (min-width: 1400px){
 
-    .sub-navigation-button li {
-      
-      margin-bottom: 110%;
-    }
+    
   
     .day-button {
      
@@ -196,10 +193,6 @@ justify-content: center;
 
   @media screen and (min-width: 1520px){
 
-  .sub-navigation-button li {
-    
-    margin-bottom: 80%;
-  }
 
   .day-button {
    
