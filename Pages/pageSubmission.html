@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Modules/CssBody.css">
     <link rel="stylesheet" href="../Modules/PageSubmission.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="container">
         <div class="header">
             <h1>IV SEMITE</h1>
         </div>
     </header>
     <main>
-        <section>
+        
+        <section class="container">
             <div class="container-title">
                 <h1>Submissão de trabalhos</h1>
                 <div class="container-p">
@@ -22,12 +24,48 @@
                     <p>Datalimite de envio até 31 de outubro de 2023</p>
                 </div>
             </div>
-        </section>
-        <section>
             <div class="container-data">
+                <div class="data">
+                    <h1>Dados do participante</h1>
+                    <div class="data-cont">
+                        <div class="data-block">
+                            <input type="text" class="data-input" placeholder="Nome Completo" required>
+                            <select name="" id="" class="data-input">
+                                <option value="" >Grupo temático</option>
+                                <option value="" >GT1</option>
+                                <option value="" >GT2</option>
+                                <option value="" >GT3</option>
+                            </select>
+                        </div>
+                        <div class="data-block">
+                            <input type="email" class="data-input" placeholder="Email" required>
+                            
+                            <input type="email" class="data-input" placeholder="Confirmar email" required>
+                        </div>
+                    </div>
+                </div>
                 
+            </div>
+            <div class="update">
+                <h2>Dados do trabalho</h2>
+                <div class="update-agroup">
+                    <input type="text" class="descricion" placeholder="Descrição">
+                    <div class="agroup">
+                        <div class="upload">
+                            <input type="file" id="inputArquivo" style="display: none;" />
+                            <label for="inputArquivo" class="agroup-file">Enviar arquivo</label>
+                            <i class="fa-solid fa-arrow-up-from-bracket" style="color: #D4D4D4;"></i>
+                        </div>
+                        <p>Nome do arquivo.pdf</p>
+                    </div>
+                </div>
+            </div>
+            <div class="line">
+                <button><a class="style-a1"href="../Pages/home.html">Cancelar</a></button>
+                <button><a class="style-a2"href="#">Enviar</a></button>
             </div>
         </section>
     </main>
+    <script src="https://kit.fontawesome.com/d63b95226d.js" crossorigin="anonymous"></script>
 </body>
 </html>

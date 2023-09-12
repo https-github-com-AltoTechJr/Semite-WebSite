@@ -43,3 +43,33 @@
     padding: 0 5rem 1rem 5rem;
     text-align: center;
 }
+
+
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+   
+}
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+   
+}
+
+@media screen and (max-width: 576px) {
+    .welcome-content h1{
+        font-size: 40px;
+    }
+    .welcome-content span {
+        font-size: 48px;
+    }
+    .welcome-content p{
+        font-size: 18px;
+    }
+}
