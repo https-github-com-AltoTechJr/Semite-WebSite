@@ -1,100 +1,93 @@
 .courses-container {
-
     display: flex;
     width: 100%;
     height: 100%;
     align-items: flex-end;
-
-}
-
-.courses-content {
-
+  }
+  
+  .courses-content {
     width: 100%;
     height: 90%;
     border-radius: 20px;
     background: #FFFFFF4D;
-
-
-}
-.swiper{
+  }
+  
+  .swiper {
     width: 90%;
     height: 98%;
-}
-
-
-.line-car {
+  }
+  
+  .line-car {
     display: flex;
     justify-content: center;
     gap: 1rem;
-}
-
-.title {
+  }
+  
+  .title {
     text-align: center;
     padding: 2rem 0rem;
     color: white;
-}
-
-.title h1{
+  }
+  
+  .title h1 {
     font-size: 30px;
-}
-
-.carrossel:hover .title-text {
+  }
+  
+  .carrossel:hover .title-text {
     opacity: 0;
     display: none;
-}
-
-.carrossel:hover .text-info {
+  }
+  
+  .carrossel:hover .text-info {
     padding-top: 2rem;
     opacity: 1;
-}
-
-.text-prof{
+  }
+  
+  .text-prof {
     padding: 2rem 0rem;
-    font-size: 10px;
-}
-.carrossel {
+    font-size: 15px;
+  }
+  
+  .carrossel {
     overflow: hidden;
     position: relative;
     width: 400px;
     height: 80%;
     border-radius: 10px;
-}
-
-
-.img {
+  }
+  
+  .img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s, opacity 0.3s;
-}
-
-.btn{
+  }
+  
+  .btn {
     display: flex;
-    justify-content: center; 
-}
-
-.btn button {
-    position: absolute; 
+    justify-content: center;
+  }
+  
+  .btn button {
+    position: absolute;
     bottom: 40px;
     padding: 0.5rem 2rem;
     justify-content: center;
     display: none;
+    border-radius: 5px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
     background: none;
     border: 2px solid white;
     cursor: pointer;
-    
-}
-
-
-
-
-.carrossel:hover .text-content {
+  }
+  
+  .carrossel:hover .text-content {
     transform: translateY(0);
-}
-
-.text-content {
+  }
+  
+  .text-content {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -105,55 +98,51 @@
     padding: 10px;
     transform: translateY(70%);
     transition: transform 1s;
-}
-
-
-.data {
+  }
+  
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    color: white;
+  }
+  
+  .data {
     margin: 0;
     font-size: 12px;
     opacity: 1;
     padding-top: 10px;
     transition: opacity 0.5s ease-in-out;
-
-}
-
-.title-text,
-.text-info {
+  }
+  
+  .title-text,
+  .text-info {
     transition: opacity 0.5s ease-in-out;
-    font-size: 18px;
+    font-size: 25px;
     padding-top: 1rem;
-}
-
-.text-info {
+  }
+  
+  .text-info {
     opacity: 0;
-}
-
-.title-text {
+  }
+  
+  .title-text {
     opacity: 1;
-}
-
-.carrossel:hover .text-content {
+  }
+  
+  .carrossel:hover .text-content {
     display: block;
-}
-
-.carrossel:hover .btn button {
+  }
+  
+  .carrossel:hover .btn button {
     display: block;
-   
-}
-
-.btn button:hover{
+  }
+  
+  .btn button:hover {
     background: white;
     color: rgb(120, 120, 120);
-}
-
-.carrossel:hover .img {
+  }
+  
+  .carrossel:hover .img {
     filter: blur(5px);
-
-}
-
-@media screen and (max-width: 900px){
-    .carrossel{
-        width:300px;
-        height:70%;
-    }
-}
+  }
+  
+  

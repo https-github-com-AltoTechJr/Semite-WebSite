@@ -121,6 +121,18 @@ section {
         max-width: 960px;
     }
 
+    .carrossel {
+        width: 300px;
+        height: 70%;
+
+    }
+
+    .carrossel {
+        width: 300px;
+        height: 70%;
+
+    }
+
     .Header-nav {
         max-width: 960px;
     }
@@ -129,6 +141,40 @@ section {
 @media screen and (max-width: 768px) {
     .container {
         max-width: 720px;
+    }
+
+    .carrossel{
+        width: 200px;
+        left: 25%;
+    }
+    
+    .swiper-slide{
+        display: flex;
+    }
+
+    
+    .swiper-slide-prev .carrossel,
+    .swiper-slide-next .carrossel {
+        transform: scale(0.8);
+        opacity: 0.3;
+        transition: 0.8s;
+    }
+
+    .carrossel{
+        width: 200px;
+        left: 25%;
+    }
+    
+    .swiper-slide{
+        display: flex;
+    }
+
+    
+    .swiper-slide-prev .carrossel,
+    .swiper-slide-next .carrossel {
+        transform: scale(0.8);
+        opacity: 0.3;
+        transition: 0.8s;
     }
 
     .Header-nav {
