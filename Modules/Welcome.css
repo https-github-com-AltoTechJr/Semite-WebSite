@@ -47,19 +47,42 @@
 
 
 @media screen and (max-width: 1400px) {
-
+    .welcome-content p{
+        padding: 8px;
+        font-size: 36px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
-   
+    .welcome-content p{
+        padding: 8px;
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 992px) {
-    
+    .welcome-content p{
+        font-size: 28px;
+        padding: 4px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-   
+    .welcome-content h1{
+        font-size: 40px;
+    }
+    .welcome-content span {
+        font-size: 48px;
+    }
+    .welcome-content{
+        margin: 0;
+        padding: 2rem 1rem;
+        width: 100%;
+    }
+    .welcome-content p{
+        font-size: 18px;
+        padding: 4px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -75,7 +98,7 @@
         width: 100%;
     }
     .welcome-content p{
-        font-size: 18px;
-        
+        font-size: 13px;
+        padding: 4px;
     }
 }
