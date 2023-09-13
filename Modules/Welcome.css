@@ -69,7 +69,13 @@
     .welcome-content span {
         font-size: 48px;
     }
+    .welcome-content{
+        margin: 0;
+        padding: 2rem 1rem;
+        width: 100%;
+    }
     .welcome-content p{
         font-size: 18px;
+        
     }
 }
