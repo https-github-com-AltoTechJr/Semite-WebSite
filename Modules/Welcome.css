@@ -57,14 +57,13 @@
 @media screen and (max-width: 1200px) {
     .welcome-content p{
         padding: 8px;
-        font-size: 30px;
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width: 992px) {
     .welcome-content p{
-        font-size: 28px;
-        padding: 4px;
+        font-size: 16px;
     }
 }
 
@@ -81,8 +80,7 @@
         width: 100%;
     }
     .welcome-content p{
-        font-size: 18px;
-        padding: 4px;
+        font-size: 16px;
     }
 }
 
@@ -97,9 +95,5 @@
         margin: 0;
         padding: 2rem 1rem;
         width: 100%;
-    }
-    .welcome-content p{
-        font-size: 13px;
-        padding: 4px;
     }
 }
