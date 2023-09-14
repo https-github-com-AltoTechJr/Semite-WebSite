@@ -1,7 +1,7 @@
 body{
     background: #FFF;
 }
-.container {
+.update-container {
     display: flex;
     
     flex-direction: column;
@@ -38,7 +38,7 @@ body{
     gap: 1rem;
   
     margin-left: 2rem;
-    width: 1192px;
+    width: 100%;
 }
 
 .container-p span{
@@ -149,6 +149,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 2rem;
+    padding-top: 2rem;
     
 }
 .line button{
@@ -186,22 +187,83 @@ body{
 
 
 @media screen and (max-width: 1400px) {
-
-}
-
-@media screen and (max-width: 1200px) {
-  
-}
-
-@media screen and (max-width: 992px) {
    
 }
 
+@media screen and (max-width: 1200px) {
+    .data h1{
+        padding-left: 3rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+   .data h1{
+    padding-left: 7rem;
+   }
+}
+
 @media screen and (max-width: 768px) {
-    
+    .container-p {
+        padding: 0;
+    }
+    .container-data{
+        flex-direction: column;
+    }
+    .data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .data-cont {
+        flex-direction: column;
+    }
+    .update-agroup{
+        flex-direction: column;
+        align-items: normal;
+    }
+    .line{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 576px) {
-  
+    .update-cont{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .update-agroup{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .data{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .data-block{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .data-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .update{
+        padding-left: 0;
+    }
+    .line{
+        flex-direction: row;
+        align-items: center;
+        width: 435px;
+        padding: 2rem 4rem 1rem;
+    }
+    .container-p{
+        padding: 0;
+        margin-left: 8px;
+    }
 }
