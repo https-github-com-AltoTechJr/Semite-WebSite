@@ -194,6 +194,10 @@ body{
     .data h1{
         padding-left: 3rem;
     }
+    .container-p{
+        
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 992px) {
