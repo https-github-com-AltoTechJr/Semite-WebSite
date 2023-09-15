@@ -22,6 +22,7 @@ body{
 }
 
 .container-title {
+
     color: #181616;
     font-size: 30px;
     font-style: normal;
@@ -29,16 +30,19 @@ body{
     line-height: 140%; /* 56px */
     text-align: center;
     padding-top: 2rem;
+
 }
 .container-p{
+
     display: flex;
     flex-direction: column;
     text-align: start;
     padding: 16px 120px 16px;
     gap: 1rem;
-  
+    margin-top: 8%;
     margin-left: 2rem;
     width: 100%;
+
 }
 
 .container-p span{
@@ -165,44 +169,40 @@ body{
     justify-content: space-between;
     cursor: pointer;
 }
-.line {
+
+#register-btn {
+    width: 100%;
+    height: 20vh;
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    padding-top: 2rem;
-    
-}
-.line button{
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 140%; /* 42px */
-    width: 300px;
-    height: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    border-radius: 10px;
-    backdrop-filter: blur(15px);
-    cursor: pointer;
-    
-}
-.line button:nth-child(1){
-    
-    background: #FFF;
-}
-.line button:nth-child(2){
-    background: #14302F;
+    align-items: center;
 }
 
-.style-a1 {
-    text-decoration: none;
-    color: #393939;
+#register-btn button {
+    background: #14302F;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    margin: 0 10px;
 }
-.style-a2 {
+#register-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
-    color: #FFF;
+    border: 2px solid #14302F;
+    color: #14302F;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 20px;
+    width: 250px;
+    height: 60px;
+    margin: 0 10px;
 }
 
 
@@ -245,10 +245,7 @@ body{
         flex-direction: column;
         align-items: normal;
     }
-    .line{
-        flex-direction: column;
-        align-items: center;
-    }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -280,12 +277,7 @@ body{
     .update{
         padding-left: 0;
     }
-    .line{
-        flex-direction: row;
-        align-items: center;
-        width: 435px;
-        padding: 2rem 4rem 1rem;
-    }
+
     .container-p{
         padding: 0;
         margin-left: 8px;
