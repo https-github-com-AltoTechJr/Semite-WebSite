@@ -34,7 +34,7 @@
 
 .section-authentication {
     height: 100vh;
-    background: url(/Assets/background.png) no-repeat;
+    background: url(../Assets/background.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
