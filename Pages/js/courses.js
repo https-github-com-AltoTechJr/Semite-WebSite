@@ -12,7 +12,7 @@ const swiper = new Swiper('.swiper', {
   });
   
   window.addEventListener('resize', function() {
-    if (window.innerWidth <= 992 && window.innerWidth > 490) { 
+    if (window.innerWidth <= 835 && window.innerWidth > 490) { 
         swiper.params.slidesPerView = 1.5,
         swiper.params.effect = 'coverflow', 
         swiper.params.coverflowEffect = {
@@ -33,3 +33,4 @@ const swiper = new Swiper('.swiper', {
     }
 
 });
+

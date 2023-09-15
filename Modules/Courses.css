@@ -68,7 +68,8 @@
     justify-content: center;
   }
   
-  .btn button {
+  .btn a {
+    text-decoration: none;
     position: absolute;
     bottom: 40px;
     padding: 0.5rem 2rem;
@@ -132,11 +133,11 @@
     display: block;
   }
   
-  .carrossel:hover .btn button {
+  .carrossel:hover .btn a {
     display: block;
   }
   
-  .btn button:hover {
+  .btn a:hover {
     background: white;
     color: rgb(120, 120, 120);
   }
@@ -145,4 +146,51 @@
     filter: blur(5px);
   }
   
+@media screen and (max-width: 992px) {
+
+    .carrossel {
+        width: 300px;
+        height: 70%;
+
+    }
+
+    nav {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    
+    .carrossel{
+        width: 360px;
+        height: 80%;
+        left: 25%;
+    }
+    
+    .swiper-slide{
+        display: flex;
+    }
+
+    
+    .swiper-slide-prev .carrossel,
+    .swiper-slide-next .carrossel {
+        transform: scale(0.8);
+        opacity: 0.3;
+        transition: 0.8s;
+    }
+
+    nav {
+        max-width: 720px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .carrossel{
+        width: 300px;
+        height: 65%;
+    }
+    .title-text,
+    .text-info {
+        font-size: 18px;
+    }
+}
   
