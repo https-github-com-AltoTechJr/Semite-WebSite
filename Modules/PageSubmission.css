@@ -65,6 +65,8 @@ body{
     line-height: 140%; /* 28px */
 }
 /* DADOS DOS PARTICIPANTE */
+
+
 .container-data{
     display: flex;
     width: 100%;
@@ -90,7 +92,20 @@ body{
 }
 .data-cont {
     display: flex;
+    flex-direction: column;
     gap: 2rem;
+    align-items: center;
+}
+.data-cont form{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+.data-form{
+    display: flex;
+    gap: 8px;
 }
 
 /* DADOS DO TRABALHO */
@@ -106,12 +121,11 @@ body{
     border-radius: 8px;
 }
 .update{
+    width: 100%;
+    text-align: center;
     display: flex;
-    height: 328.646px;
-    gap: 49px;
-    flex-shrink: 0;
-    padding-left: 8rem;
     flex-direction: column;
+    padding: 1rem;
 }
 
 .update-agroup{
@@ -120,6 +134,10 @@ body{
     align-items: center;
     gap: 3rem;
 
+}
+.update-cont{
+    display: flex;
+    flex-direction: column;
 }
 .agroup{
     display: flex;
