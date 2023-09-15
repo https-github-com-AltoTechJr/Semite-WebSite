@@ -27,48 +27,64 @@
         <div class="container-data">
             <div class="data">
                 <h1>Dados do participante</h1>
+                
                 <div class="data-cont">
-                    <div class="data-block">
-                        <input type="text" class="data-input" placeholder="Nome Completo" required>
-                        <select name="" id="" class="data-input">
-                            <option value="" >Grupo temático</option>
-                            <option value="" >GT1</option>
-                            <option value="" >GT2</option>
-                            <option value="" >GT3</option>
-                        </select>
-                    </div>
-                    <div class="data-block">
-                        <input type="email" class="data-input" placeholder="Email" required>
+          
+                    <form action="#">
+                        <div class="data-form">
+                            <div class="input-box">
+                                <input type="text" class="data-input" placeholder="Nome Completo" required>
+                            </div>
+                            <div class="input-box">
+                            
+                                <select name="" id="" class="data-input" required>
+                                    <option value="" >Grupo temático</option>
+                                    <option value="" >GT1</option>
+                                    <option value="" >GT2</option>
+                                    <option value="" >GT3</option>
+                                </select>
+                            </div>
+                        </div>
                         
-                        <input type="email" class="data-input" placeholder="Confirmar email" required>
-                    </div>
+                        <div  class="data-form">
+                            <div class="input-box">
+                                <input type="email" class="data-input" placeholder="Email" required>
+                            </div>
+                            <div class="input-box">
+                            
+                                <input type="email" class="data-input" placeholder="Confirmar email" required>
+                            </div>
+                        </div>
+
+                        <div class="update">
+                            <div class="update-container">
+                                <div class="update-cont">
+                                    <h1>Dados do trabalho</h1>
+                                    <div class="update-agroup">
+                                        <input type="text" class="descricion" placeholder="Descrição" required>
+                                        <div class="agroup">
+                                            <div class="upload">
+                                                <input type="file" id="inputArquivo" style="display: none;" required/>
+                                                <label for="inputArquivo" class="agroup-file">Enviar arquivo</label>
+                                                <i class="fa-solid fa-arrow-up-from-bracket" style="color: #D4D4D4;"></i>
+                                            </div>
+                                            <p>Nome do arquivo.pdf</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="line">
+                                <button><a class="style-a1"href="../Pages/home.html">Cancelar</a></button>
+                                <button type="submit" class="style-a2">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
 
-        <div class="update">
-            <div class="update-container">
-                <div class="update-cont">
-                    <h1>Dados do trabalho</h1>
-                    <div class="update-agroup">
-                        <input type="text" class="descricion" placeholder="Descrição">
-                        <div class="agroup">
-                            <div class="upload">
-                                <input type="file" id="inputArquivo" style="display: none;" />
-                                <label for="inputArquivo" class="agroup-file">Enviar arquivo</label>
-                                <i class="fa-solid fa-arrow-up-from-bracket" style="color: #D4D4D4;"></i>
-                            </div>
-                            <p>Nome do arquivo.pdf</p>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="line">
-                <button><a class="style-a1"href="../Pages/home.html">Cancelar</a></button>
-                <button><a class="style-a2"href="#">Enviar</a></button>
-            </div>
-        </div>
+       
     </section>
 </main>
     <script src="https://kit.fontawesome.com/d63b95226d.js" crossorigin="anonymous"></script>
