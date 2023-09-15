@@ -350,7 +350,6 @@ input::placeholder {
 @media screen and (max-width: 768px) {
     .section-authentication {
         justify-content: center;
-        background: url(/Assets/background.png) no-repeat;
         background-size: cover;
         background-position: center;
         align-items: center;
