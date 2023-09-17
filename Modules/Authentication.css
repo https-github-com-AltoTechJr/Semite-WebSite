@@ -33,7 +33,7 @@
 }
 
 .section-authentication {
-    height: 100vh;
+    height: 115vh;
     background: url(/Assets/background.png) no-repeat;
     background-size: cover;
     background-position: center;
@@ -42,7 +42,7 @@
 }
 
 .wrapper-authentication {
-    width: 55%;
+    width: 50%;
     height: auto;
     background: #D9D9D994 58%;
     backdrop-filter: blur(10px);
@@ -69,7 +69,7 @@
 
 .authentication-title h1 {
     align-items: center;
-    font-size: 6vw;
+    font-size: 7vw;
     font-weight: 800;
 }
 
@@ -93,9 +93,9 @@
 }
 
 .authentication-box .authentication-btn {
-    height: 50px;
+    height: 4vw;
     width: 30%;
-    border-radius: 10px;
+    border-radius: 1vw;
     border: none;
     background-color: #002d2d;
     color: #FFF;
@@ -121,7 +121,7 @@
 
 .authentication-borders .border-left,
 .border-right {
-    border: 1px solid #14302F;
+    border-top: 1px solid #14302F;
     width: 25%;
     margin: 0 1%;
 }
@@ -138,10 +138,11 @@
 .authentication-media-options a {
     display: inline-flex;
     justify-content: center;
+    font-size: 1vw;
     align-items: center;
-    border-radius: 10px;
-    height: 50px;
-    width: 335px;
+    border-radius: 1vw;
+    height: 4vw;
+    width: 50%;
     background-color: #FFF;
     text-align: center;
     margin: 5px 0;
@@ -165,7 +166,7 @@
 .link-box {
     margin-top: 2%;
     height: auto;
-    max-width: 100%; 
+    max-width: 100%;
     font-size: 1vw;
     display: flex;
 }
@@ -285,9 +286,9 @@
 }
 
 .input-file-with-info {
-    margin-top: 10px; 
-  }
-  
+    margin-top: 10px;
+}
+
 
 .info-text-file {
     margin-top: 2%;
@@ -347,6 +348,77 @@ input::placeholder {
     width: 10%;
 }
 
+.Details-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 90%;
+}
+
+.Details-text h2 {
+    color: #002D2D;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 2.5vw;
+}
+
+.Details-text h2 span {
+    font-weight: 200;
+    font-size: 1.5vw;
+    letter-spacing: 3px;
+}
+
+.Details-text .flag img {
+    height: 3vw;
+}
+
+.Details-text p {
+    font-size: 1vw;
+    line-height: 28px;
+    letter-spacing: 3px;
+}
+
+.wrapper-Details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.accomplishment {
+    background: #D9D9D994 58%;
+    text-align: start;
+    width: 80%;
+    border-radius: 0.7vw;
+    display: flex;
+    font-weight: 200;
+    font-size: 1.2vw;
+    margin-bottom: 2%;
+}
+
+.accomplishment .accomplishment-right {
+    width: 75%;
+    margin-left: 2%;
+}
+
+.accomplishment .accomplishment-right .accomplishment-right-img img {
+    padding: 0 8px;
+    height: 3vw;
+}
+
+.accomplishment .accomplishment-left .accomplishment-left-img img {
+    padding: 0 2px;
+    height: 3vw;
+}
+
+
+.accomplishment .accomplishment-left {
+    width: 25%;
+}
+
 @media screen and (max-width: 768px) {
     .section-authentication {
         justify-content: center;
@@ -383,16 +455,16 @@ input::placeholder {
 
     .authentication-input-box input[type="email"],
     .authentication-input-box input[type="password"] {
-        width: 80%;
+        width: 70%;
     }
 
     .authentication-box .authentication-btn {
-        width: 40%;
+        width: 30%;
         font-size: 3.2vw;
-        height: 50px;
+        height: 7vw;
     }
 
-    .authentication-box .authentication-btn.signup{
+    .authentication-box .authentication-btn.signup {
         margin: 20px;
     }
 
@@ -405,7 +477,7 @@ input::placeholder {
     }
 
     .authentication-borders {
-       font-size: 2.5vw;
+        font-size: 2.5vw;
     }
 
     .authentication-borders .border-left,
@@ -415,8 +487,11 @@ input::placeholder {
 
     .authentication-media-options a {
         width: 50%;
+        height: 50%;
         margin: 5px 0;
         font-size: 2vw;
+        height: 7vw;
+        width: 50%;
     }
 
     .register-box {
@@ -427,10 +502,8 @@ input::placeholder {
         flex-direction: column;
     }
 
-  
-
     .info-text-password {
-        font-size: 1vw;
+        font-size: 1.5vw;
         position: relative;
         margin-top: 3px;
     }
@@ -440,21 +513,15 @@ input::placeholder {
         font-size: 2vw;
         padding-bottom: 10px;
     }
-    
+
     .link-box a {
         font-size: 2vw;
     }
 
-    .authentication-media-options a {
-        height: 40px;
-        width: 50%;
-        font-size: 1.9vw;
-    }
-    
     .authentication-media-options a:hover {
         background-color: #E0E0E0;/
     }
-    
+
     .authentication-media-options img {
         height: 50%;
     }
@@ -500,11 +567,14 @@ input::placeholder {
 
     .info-text-file {
         margin-top: 2%;
-        font-size: 1vw;
+        font-size: 1.5vw;
         margin-left: 2%;
         text-align: left;
     }
-    
+
+    .wrapper-Details {
+        display: none;
+    }
 
 }
 
