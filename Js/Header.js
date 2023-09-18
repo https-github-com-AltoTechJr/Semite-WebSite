@@ -21,7 +21,7 @@ navItems.forEach(item => {
     });
 });
 
-const sections = document.querySelectorAll(".welcome, .events, .short-courses, .work-submission");
+const sections = document.querySelectorAll(".welcome, .events, .short-courses, .short-speakers, .work-submission");
 
 function updateActiveNavItem() {
     const middleOfScreen = window.innerHeight / 2;
