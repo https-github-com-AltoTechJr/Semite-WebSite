@@ -373,6 +373,7 @@ input::placeholder {
 
 .Details-text .flag img {
     height: 3vw;
+    margin-top: 2px;
 }
 
 .Details-text p {
