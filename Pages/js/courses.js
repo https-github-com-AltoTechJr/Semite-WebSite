@@ -4,10 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
         loop: true,
         slidesPerView: 2.5,
         keyboard: true,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
         speed: 1500, 
         loopAdditionalSlides: 1, 
         loopPreventsSlide: false, 

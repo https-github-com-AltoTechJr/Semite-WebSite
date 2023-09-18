@@ -13,7 +13,7 @@
 }
 
 .swiper {
-  width: 90%;
+  width: 95%;
   height: 98%;
 }
 
@@ -149,6 +149,12 @@
 }
 
 
+@media screen and (max-width: 1065px) {
+  .carrossel{
+    width: 300px;
+  }
+}
+
 @media screen and (max-width: 992px) {
 
   .carrossel {
@@ -161,7 +167,12 @@
       max-width: 960px;
   }
 }
-
+@media screen and (max-width: 860px) {
+  .swiper{width: 100%;}
+  .carrossel{
+    width: 270px;
+  }
+}
 @media screen and (max-width: 699px) {
   
   .carrossel{
@@ -189,10 +200,15 @@
 @media screen and (max-width: 576px) {
   .carrossel{
       width: 300px;
-      height: 65%;
+      height: 75%;
   }
   .title-text,
   .text-info {
-      font-size: 18px;
+      font-size: 14px;
   }
+  .btn a{
+    font-size:14px;
+    bottom: 20px;
+  }
+ 
 }
