@@ -162,12 +162,12 @@
   }
 }
 
-@media screen and (max-width: 835px) {
+@media screen and (max-width: 699px) {
   
   .carrossel{
       width: 360px;
       height: 80%;
-      left: 25%;
+      left: 35%;
   }
   
   .swiper-slide{
