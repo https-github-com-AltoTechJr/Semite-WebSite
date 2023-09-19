@@ -33,7 +33,7 @@
 }
 
 .section-authentication {
-    height: 115vh;
+    height: auto;
     background: url(/Assets/background.png) no-repeat;
     background-size: cover;
     background-position: center;
@@ -47,6 +47,7 @@
     background: #D9D9D994 58%;
     backdrop-filter: blur(10px);
     display: flex;
+    height: 115vh;
     flex-direction: column;
     justify-content: center;
     border-radius: 30px 0px 0px 30px;
@@ -392,12 +393,12 @@ input::placeholder {
 .accomplishment {
     background: #D9D9D994 58%;
     text-align: start;
-    width: 80%;
+    width: 90%;
     border-radius: 0.7vw;
     display: flex;
     font-weight: 200;
     font-size: 1.2vw;
-    margin-bottom: 2%;
+    margin: 15px;
 }
 
 .accomplishment .accomplishment-right {
@@ -405,16 +406,16 @@ input::placeholder {
     margin-left: 2%;
 }
 
-.accomplishment .accomplishment-right .accomplishment-right-img img {
-    padding: 0 8px;
-    height: 3vw;
+
+
+.accomplishment .accomplishment-right .accomplishment-right-img img, .accomplishment .accomplishment-left .accomplishment-left-img img:first-child {
+    padding: 0 4%;
+    max-height: 3vw;
 }
 
 .accomplishment .accomplishment-left .accomplishment-left-img img {
-    padding: 0 2px;
-    height: 3vw;
+    max-height: 3vw;
 }
-
 
 .accomplishment .accomplishment-left {
     width: 25%;
@@ -426,7 +427,10 @@ input::placeholder {
         background: url(/Assets/background.png) no-repeat;
         background-size: cover;
         background-position: center;
+        height: auto;
         align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
         display: flex;
     }
 
@@ -434,7 +438,7 @@ input::placeholder {
         width: 90%;
         border-radius: 30px;
         max-width: 90%;
-        margin: auto;
+        margin: 50%;
         height: auto;
     }
 
@@ -574,9 +578,11 @@ input::placeholder {
     }
 
     .wrapper-Details {
-        display: none;
+      width: 50%;
     }
 
+    
+    
 }
 
 
