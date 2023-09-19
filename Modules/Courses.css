@@ -198,10 +198,7 @@
   }
 }
 @media screen and (max-width: 576px) {
-  .carrossel{
-      width: 300px;
-      height: 65%;
-  }
+
   .title-text,
   .text-info {
       font-size: 14px;
@@ -210,5 +207,8 @@
     font-size:14px;
     bottom: 20px;
   }
+  .text-content {
+    transform: translateY(80%);
+}
  
 }
