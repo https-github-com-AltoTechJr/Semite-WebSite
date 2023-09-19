@@ -1,6 +1,6 @@
 #work-submission {
 
-    height: 50vh;
+    height: 60vh;
 }
 
 .work-container {
@@ -16,7 +16,7 @@
 .work-content {
 
     width: 100%;
-    height: 80%;
+    height: 70%;
     border-radius: 20px;
     background: #14302F99;
     text-align: center;
