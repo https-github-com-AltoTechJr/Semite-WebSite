@@ -86,7 +86,7 @@
 
 @media screen and (max-width: 576px) {
     .welcome-content h1{
-        font-size: 40px;
+        font-size: 38px;
     }
     .welcome-content span {
         font-size: 48px;
@@ -95,5 +95,8 @@
         margin: 0;
         padding: 2rem 1rem;
         width: 100%;
+    }
+    .welcome-content p{
+        font-size: 14px;
     }
 }
