@@ -423,7 +423,6 @@ input::placeholder {
 
 @media screen and (max-width: 768px) {
     .section-authentication {
-<<<<<<< HEAD
         justify-content: center;
         background: url(/Assets/background.png) no-repeat;
         background-size: cover;
@@ -433,15 +432,6 @@ input::placeholder {
         display: flex;
         flex-direction: column-reverse;
         display: flex;
-=======
-    justify-content: center;
-    background: url(/Assets/background.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column-reverse;
->>>>>>> 67426e0d16ab8852cda5f44ecd8f7f54a9cdd702
     }
 
     .wrapper-authentication {
@@ -587,12 +577,9 @@ input::placeholder {
         text-align: left;
     }
 
-<<<<<<< HEAD
     .wrapper-Details {
       width: 50%;
     }
-=======
->>>>>>> 67426e0d16ab8852cda5f44ecd8f7f54a9cdd702
 
     
     
