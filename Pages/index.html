@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IV SEMITE</title>
+    <link rel="stylesheet" href="../Modules/CssBody.css">
+    <link rel="stylesheet" href="../Modules/Header.css">
+    <link rel="stylesheet" href="../Modules/Welcome.css">
+    <link rel="stylesheet" href="../Modules/Events.css">
+    <link rel="stylesheet" href="../Modules/Courses.css">
+    <link rel="stylesheet" href="Modules/Round-table.css">
+    <link rel="stylesheet" href="../Modules/Work.css">
+    <link rel="stylesheet" href="../Modules/footer.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body class="container" id="Body-Home">
+
+    <header class="container">
+        <nav class="Header-nav">
+            <div class="logo-container">
+                IV SEMITE
+            </div>
+
+            <div id="container-header">
+                <div class="Nav-Itens">
+                    <ul class="mobile-menu">
+                        <li class="nav-item active" id="Search-inicio"><a href="#welcome" class="nav-link"><i
+                                    class="fa-solid fa-house"></i>
+                                <p>Início</p>
+                            </a></li>
+                        <li class="nav-item" id="Search-programação"><a href="#events" class="nav-link"><i
+                                    class="fa-regular fa-calendar"></i>
+                                <p>Programação</p>
+                            </a></li>
+
+                        <li class="nav-item" id="Search-speakers"><a href="#short-speakers" class="nav-link"><i
+                                    class="fa-solid fa-people-group"></i>
+                                <p>Palestrantes</p>
+                        </li>
+                        <li class="nav-item" id="Search-minicursos"><a href="#short-courses" class="nav-link"><i
+                                    class="fa-solid fa-award"></i>
+                                <p>Minicursos</p>
+                        </li>
+
+                        <li class="nav-item" id="Search-Trabalhos"><a href="#work-submission" class="nav-link"><i
+                                    class="fa-solid fa-briefcase"></i>
+                                <p>Trabalhos</p>
+                            </a></li>
+                    </ul>
+                    <div id="name-logo-mobile">
+                        <p id="text-mobile">IV SEMITE</p>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="webmenu">
+                <li class="nav-item2 active" id="Search-inicio"><a href="#welcome" class="nav-link"><i
+                            class="fa-solid fa-house"></i>
+                        <p>Início</p>
+                    </a></li>
+                <li class="nav-item2" id="Search-programação"><a href="#events" class="nav-link"><i
+                            class="fa-regular fa-calendar"></i>
+                        <p>Programação</p>
+                    </a></li>
+                <li class="nav-item2" id="Search-speakers"><a href="#short-speakers" class="nav-link"><i
+                            class="fa-solid fa-people-group"></i>
+                        <p>Palestrantes</p>
+                </li>
+                <li class="nav-item2" id="Search-minicursos"><a href="#short-courses" class="nav-link"><i
+                            class="fa-solid fa-award"></i>
+                        <p>Minicursos</p>
+                </li>
+                <li class="nav-item2" id="Search-Trabalhos"><a href="#work-submission" class="nav-link"><i
+                            class="fa-solid fa-briefcase"></i>
+                        <p>Trabalhos</p>
+                    </a></li>
+
+            </ul>
+
+            <div id="Header-menu-mobile"><i id="Menubtn" class="fa-solid fa-bars-staggered"></i></div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome" id="welcome">
+            <div class="container">
+                <div class="welcome-container">
+                    <div class="welcome-content">
+                        <h1>BEM-VINDOS AO <br><span>IV SEMITE</span></h1>
+
+                        <p>O Seminário Internacional de Tecnologia e Ensino (SEMITE) visa promover encontros científicos
+                            e pedagógicos entre pesquisadores internacionais que atuem na área da Tecnologia
+                            Educacional. O SEMITE tem sido organizado pelo Programa de Pós-Graduação em Ensino (PPGE) do
+                            Campus de Pau dos Ferros da Universidade do Estado do Rio Grande do Norte.</p>
+                        <p>A quarta edição do SEMITE contará com a participação de pesquisadores do Brasil, de
+                            Moçambique, Portugal, Peru e será organizado em parceria com a Universidade Federal Rural do
+                            Semi-Árido, com a 15ª DIREC do Estado do Rio Grande do Norte, com o Instituto Federal do
+                            Acre (IFAC), com a Universidade Federal da Fronteira Sul (UFFS), com Universidade Federal do
+                            Amazonas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="events" id="events">
+            <div class="container">
+                <div class="events-container">
+                    <div class="events-content">
+
+                        <p id="top-section-crono-title">Programação</p>
+                        <div class="conteiner-prog">
+                            <nav data-aos="zoom-in" class="Prog-events-day">
+                                <ul class="sub-navigation-button">
+                                    <li class="day-button active" data-target="event-1" onclick="handleItemClick(this)">
+                                        04 Dez <p id="day-button-week">Segunda-feira</p>
+                                    </li>
+                                    <li class="day-button" data-target="event-2" onclick="handleItemClick(this)">05 Dez
+                                        <p id="day-button-week">
+                                            Terça-feira</p>
+                                    </li>
+                                    <li class="day-button" data-target="event-3" onclick="handleItemClick(this)">06 Dez
+                                        <p id="day-button-week">
+                                            Quarta-feira</p>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div data-aos="fade-right" class="Prog-events-fuso">
+                                <div class="Event-day active" id="event-1">
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            8:00 - 9:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Credenciamento
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="title-events">
+                                            Abertura
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            9:00 - 9:30
+                                        </li>
+                                        <li class="sub-event-text">
+
+                                            <strong>Mesa de Abertura</strong>
+
+                                            <p>Coordenação do evento</p>
+                                            <p>Coordenação do PPGE</p>
+                                            <p>Diretora da 15 ª DIREC</p>
+                                            <p>Diretores da UERN, Ufersa, IFRN</p>
+
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            9:30 - 10:30
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Conferência de Abertura: "Desafios ao Ensino na era Digital".
+
+                                        </li>
+                                        <li class="sub-event-text">
+
+                                            Prof. Dr. Luiz tomaz (Unilab – Moçambique)
+
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="title-events">
+                                            Apresentações
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            10:40 - 12:30
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>GT 1:</strong> Abordagem Metodológicas, Inteligência Artificial e
+                                            Tecnologias no
+                                            Ensino
+
+                                        </li>
+                                        <li class="sub-event-text">
+
+
+                                            <strong>Moderadores</strong>
+                                            <p> Profa. Dra. Lúcia Pessoa Sampaio (UERN)</p>
+                                            <p>José Lima de Araújo (PPGE) - suporte técnico</p>
+                                            <p>Prof. Dr. Roberto Mariano de A. Filho (DME/UERN/CAP)</p>
+
+
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            10:40 - 12:30
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>GT 2:</strong> Jogos, simuladores e tecnologias emergentes para o
+                                            ensino
+
+                                        </li>
+                                        <li class="sub-event-text">
+
+
+                                            <strong>Moderadores</strong>
+                                            <p>Prof. Dr. Geiser Chalco Challco (Ufersa)</p>
+                                            <p>Francisco Rauzito Neres dos Santos (PPGE) - suporte técnico</p>
+
+
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            10:40 - 12:30
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>GT 3:</strong> Tecnologias e abordagens metodológicas para o ensino
+                                            de
+                                            Programação e o desenvolvimento do pensamento computacional
+
+
+                                        </li>
+                                        <li class="sub-event-text">
+
+
+                                            <strong>Moderadores</strong>
+                                            <p>Profa. Dra. Kyteria Sabina de Figueredo </p>
+                                            <p>Prof. Dr. Otávio Paulino Floriano</p>
+
+
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            12:30 - 14:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Intervalo
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="title-events">
+                                            Minicursos
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            14:00 - 18:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Minicurso:</strong> O que são Sistemas de Tutores Inteligentes e
+                                            como construir seus próprios sistemas usando CTAT
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Ministrante:</strong> Prof. Dr. Geiser Chalco Challco. Universidade
+                                            Federal Rural do Semi-Árido- Ufersa (Brasil)
+
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            14:00 - 18:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Minicurso:</strong> As TIC’s e a Educação: o cine debate como
+                                            recurso pedagógico
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Ministrante:</strong> Prof. Dr. Glauber Barreto Luna
+
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            14:00 - 18:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Minicurso:</strong> Programação Criativa
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Ministrante:</strong> Prof. MSc. Marco Diego Aurelio
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            14:00 - 18:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Minicurso:</strong>Educação científica com enfoque CTSA na
+                                            educação básica: um olhar interdisciplinar
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Ministrante:</strong> Prof. Dr. João Ricardo Avelino Leão (IFAC)
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="Event-day" id="event-2">
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            8:00 - 9:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Palestra:</strong> Plataforma forma robótica educacional para ensino
+                                            em
+                                            diferentes níveis de ensino Ciência prática: repensando a educação STEAM em
+                                            tempos de
+                                            incerteza
+
+                                            <p><strong>Ministrante:</strong> Prof. Miguel Angel Queiroga Dios
+                                                (Universidad de Burgos)
+                                            </p>
+
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            10:00 - 11:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Palestra:</strong> Tecnologia e Inovação: experiências e tendências
+                                            internacionais
+                                            <p><strong>Ministrante:</strong> Prof. Luís Miguel Dias Caetano
+                                            </p>
+
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            11:00 - 14:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Intervalo
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="title-events">
+                                            Mesa redonda
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            14:00 - 15:30
+                                        </li>
+                                        <li class="sub-event-text">
+
+                                            Um diálogo entre TPACK e as TDIC como Instrumentos Culturais
+                                            na Formação de Professores de Ciências.
+
+                                            <p>Profa. Dra. Judite Scherer Wenzel (UFFS/PPGEC) (mediadora)
+                                            </p>
+                                            <p>Profa. Dra. Paula Vanessa Bervian (UFFS/PPGEC)
+                                            </p>
+                                            <p>Prof. Dr. Dioni Pastorio (UFRGS/UFFS/PPGEC)</p>
+
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="title-events">
+                                            Minicursos
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            15:40 - 19:40
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Minicurso:</strong> Robótica Educacional com Material Manipulável
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Ministrante:</strong> Prof. Dr. Petrúcio Ricardo Medeiros
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            15:40 - 19:40
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Minicurso:</strong> Introdução a programação Blockly
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Ministrante:</strong> Prof. Sharon Dantas da Cunha
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            15:40 - 19:40
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Minicurso:</strong> Modelagem para impressão 3D utilizando o fusion
+                                            360
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Ministrante:</strong> Prof. Dr. Cecilio Martins Sousa Neto
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            15:40 - 19:40
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Minicurso:</strong> O uso da tecnologia audiovisual como estratégia
+                                            de
+                                            ensino de Geografia na Educação Básica
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Ministrante:</strong> Prof. Mestranda Talhany Cris Ferreira da
+                                            Conceição
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="Event-day" id="event-3">
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            8:30 - 9:30
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Rumo à redução da exclusão digital no Brasil: avançando oportunidades de
+                                            aprendizagem com inteligência artificial, inteligência aumentada e análise
+                                            de aprendizagem.
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Prof. Dr. Diego Dermeval (UFAL)
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="title-events">
+                                            Minicursos
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            9:40 - 12:30
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Minicurso:</strong> Como utilizar o software VOSviewer para análise
+                                            bibliométrica.
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Ministrante:</strong> Prof. Dr. Jacineumo Falcão de Oliveira
+                                            (Ufersa)
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            9:40 - 12:30
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Minicurso:</strong> Desenvolvendo um jogo sério utilizando o
+                                            PowerPoint
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Ministrante:</strong> Prof. Dr. Francisco Carlos Gurgel da Silva
+                                            Segundo
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            9:40 - 12:30
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Minicurso:</strong>: Utilizando ferramentas de IA para organização
+                                            de
+                                            referências em Revisão Sistemática da Literatura
+                                        </li>
+                                        <li class="sub-event-text">
+                                            <strong>Ministrante:</strong> Prof. Dr. Roberto Mariano de Araújo Filho -
+                                            UERN - DME/Patu
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            12:30 - 14:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Intervalo
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="title-events">
+                                            Palestra
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            14:00 - 15:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Possibilidades e desafios da incorporação de TICs como elementos de
+                                            interculturalidade na educação básica
+                                        </li>
+                                        <li class="sub-event-text">
+
+                                            <strong>Ministrante:</strong> Profa. MSc. Somaria de Araújo Moura
+
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="title-events">
+                                            Encerramento
+                                        </li>
+                                    </ul>
+
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            17:00 - 19:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Plenária de encerramento
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+                                    <ul class="sub-fuso-events">
+                                        <li class="sub-fuso-text">
+                                            19:00
+                                        </li>
+                                        <li class="sub-event-text">
+                                            Momento Cultural / jantar
+                                        </li>
+                                        <li class="sub-local-text">
+                                            Local: A definir
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div id="Fuso-alert">
+                            A programação apresenta horário de Brasília.
+                        </div>
+
+                    </div>
+
+
+                </div>
+        </section>
+
+
+        <section class="short-speakers" id="short-speakers">
+            <div class="container">
+                <div class="courses-container">
+
+
+
+                    <div class="courses-content">
+
+                        <div class="title">
+                            <h1>Palestrantes</h1>
+                        </div>
+
+
+
+
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="/Assets/Palestra 1.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">04/12 - 09h30min às 10h30min</h2>
+                                            <p class="title-text">Conferência de Abertura</p>
+                                            <p class="text-info">Conferência de Abertura: "Desafios do Ensino na era
+                                                Digital"</p>
+                                            <p class="text-prof">Prof. Dr. Luís tomás Domingos (Unilab) – Moçambique</p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="/Assets/Palestra 2.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">05/12 - 8h00min às 9h00min</h2>
+                                            <p class="title-text">Plataforma robótica educacional...</p>
+                                            <p class="text-info">Plataforma robótica educacional para ensino, Ciência
+                                                prática: repensando a educação STEAM em tempos de incerteza.(REMOTA)</p>
+                                            <p class="text-prof">Prof. Miguel Angel Queiroga Dios - (Universidad de
+                                                Burgos)</p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="/Assets/palestra 4.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">05/12 - 10:00min às 11h00min</h2>
+                                            <p class="title-text">Conferência: "Tecnologia e Inovação...</p>
+                                            <p class="text-info">Conferência: "Tecnologia e Inovação: experiências e
+                                                tendências internacionais"</p>
+                                            <p class="text-prof">Prof. Luís Miguel Dias Caetano (UNILAB)</p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="/Assets/Palestra 3.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">06/12 - 08h30min às 9h30min</h2>
+                                            <p class="title-text">Rumo à redução da exclusão digital no Brasil...</p>
+                                            <p class="text-info">Rumo à redução da exclusão digital no Brasil: avançando
+                                                oportunidades de aprendizagem com inteligência artificial, inteligência
+                                                aumentada e análise de aprendizagem.</p>
+                                            <p class="text-prof">Prof. Dr. Diego Dermeval (UFAL)</p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="Assets/palestra.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">06/12 - 14h00min às 15h00min</h2>
+                                            <p class="title-text">Possibilidades e desafios da incorporação de TICs...
+                                            </p>
+                                            <p class="text-info">Possibilidades e desafios da incorporação de TICs como
+                                                elementos de interculturalidade na educação básica</p>
+                                            <p class="text-prof">MSc. Sonaira de Araújo Moura (UMINHO) Portugal</p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="short-courses" id="short-courses">
+            <div class="container">
+                <div class="courses-container">
+
+
+
+                    <div class="courses-content">
+
+                        <div class="title">
+                            <h1>Minicursos</h1>
+                        </div>
+
+
+
+
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="../Assets/Minicurso 1.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">04/12 - 14h00min às 18h00min</h2>
+                                            <p class="title-text">O que são Sistemas de Tutores Inteligentes...</p>
+                                            <p class="text-info">O que são Sitemas de Tutores Inteligentes e como
+                                                construir seus
+                                                próprios sistemas usando CTAT</p>
+                                            <p class="text-prof">Prof. Dr. Geiser Chalco Challco</p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="../Assets/Minicurso 2.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">04/12 - 14h00min às 18h00min</h2>
+                                            <p class="title-text">As TIC’s e a Educação</p>
+                                            <p class="text-info">As TIC’s e a Educação: o cine debate como recurso
+                                                pedagógico.
+                                                MODALIDADE PRESENCIAL
+                                            </p>
+                                            <p class="text-prof">Prof. Dr. Glauber Barreto Luna</p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="../Assets/image 5.svg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">04/12 - 14h00min às 18h00min</h2>
+                                            <p class="title-text">Programação criativa </p>
+                                            <p class="text-info"> Programação criativa é um estilo de desenvolvimento
+                                                com foco na criação de
+                                                algo expressivo como em visuais, entretenimento, artes, sons e
+                                                protótipos.
+                                            </p>
+                                            <p class="text-prof">Prof. MSc. Marco Diego Aurelio</p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="../Assets/Minicurso 7.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">04/12 - 14h00min às 18h00min</h2>
+                                            <p class="title-text">Educação científica com enfoque CTSA...</p>
+                                            <p class="text-info">Educação científica com enfoque CTSA na educação
+                                                básica: um olhar interdisciplinar
+                                            </p>
+                                            <p class="text-prof">Prof. Dr. João Ricardo Avelino Leão (IFAC)
+                                            </p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="../Assets/Minicurso 6.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">05/12 - 15h40min às 19h40min -</h2>
+                                            <p class="title-text"> Robótica Educacional...</p>
+                                            <p class="text-info"> Robótica Educacional com Material Manipulável
+                                            </p>
+                                            <p class="text-prof">Prof. Dr. Petrúcio Ricardo Medeiros
+                                            </p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="../Assets/Minicurso 5.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">05/12 - 15h40min às 19h40min -</h2>
+                                            <p class="title-text">Introdução a programação Blockly...</p>
+                                            <p class="text-info">Introdução a programação Blockly
+                                            </p>
+                                            <p class="text-prof">Prof. Sharon Dantas da Cunha
+                                            </p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="../Assets/image 2.svg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">05/12 - 15h40min às 19h40min -</h2>
+                                            <p class="title-text">Modelagem para impressão 3D...
+                                            </p>
+                                            <p class="text-info">Modelagem para impressão 3D utilizando o fusion 360.
+                                            </p>
+                                            <p class="text-prof">Prof. Dr. Cecilio Martins Sousa Neto
+                                            </p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="../Assets/Minicurso 8.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">05/12 - 15h40min às 19h40min -</h2>
+                                            <p class="title-text">O uso da tecnologia audiovisual...
+                                            </p>
+                                            <p class="text-info">O uso da tecnologia audiovisual como estratégia de
+                                                ensino de Geografia na Educação Básica
+                                            </p>
+                                            <p class="text-prof">Prof. Mestranda Talhany Cris Ferreira da Conceição
+                                            </p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="../Assets/Minicurso 3.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">06/12 - 9h40min às 12h30min</h2>
+                                            <p class="title-text">Como usar o software VOSviewer para anális...</p>
+                                            <p class="text-info">Como utilizar o software VOSviewer para análise
+                                                bibliométrica</p>
+                                            <p class="text-prof">Prof. Dr. Jacineumo Falcão de Oliveira (Ufersa)</p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="../Assets/minicurso 4.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">06/12 - 9h40min às 12h30min</h2>
+                                            <p class="title-text">Desenvolvendo um jogo...</p>
+                                            <p class="text-info">Desenvolvendo um jogo sério utilizando o PowerPoint
+                                            </p>
+                                            <p class="text-prof">Prof. Dr. Francisco Carlos Gurgel da Silva Segundo
+                                            </p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="carrossel">
+                                        <img class="img" src="../Assets/Minicurso 9.jpg" alt="">
+                                        <div class="text-content">
+                                            <h2 class="data">06/12 - 9h40min às 12h30min</h2>
+                                            <p class="title-text">Utilizando ferramentas de IA...</p>
+                                            <p class="text-info"> Utilizando ferramentas de IA para organização de
+                                                referências em Revisão Sistemática da Literatura
+                                            </p>
+                                            <p class="text-prof">Prof. Dr. Roberto Mariano de Araújo Filho - UERN -
+                                                DME/Patu
+                                            </p>
+                                            <div class="btn"><a href="Pages/Alert.html">Em Breve</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="Round-table">
+                    <div class="Round-table-content">
+                        <div class="title">
+                            <h1>Mesa Redonda</h1>
+                        </div>
+
+                        <div class="Round-table-imgs">
+
+                            <div class="Round-table-img">
+                                <img src="Assets/Mesa 1.jpg" alt="">
+                                <p>Profa. Dra. Judite Scherer Wenzel (UFFS/PPGEC)
+                                </p>
+                            </div>
+
+                            <div class="Round-table-img">
+                                <img src="Assets/Mesa 2.jpg" alt="">
+                                <p>Profa. Dra. Paula Vanessa Bervian (UFFS/PPGEC)</p>
+                            </div>
+                            
+                               
+                            <div class="Round-table-img">
+                                <img src="Assets/Mesa 3.jpg" alt="">
+                                <p>Prof. Dr. Dioni Pastorio (UFRGS/UFFS/PPGEC)</p>
+                            </div>
+                           
+
+                        </div>
+
+                        <div class="Round-table-description">
+                            <p id="Round-table-description-title">Um diálogo entre TPACK e as TDIC como Instrumentos Culturais na Formação de Professores de Ciências</p>
+                            <p>14h00min às 15h30min</p>
+                            <p>Modalidade (Remota)</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-submission" id="work-submission">
+            <div class="container">
+                <div class="work-container">
+                    <div class="work-content">
+                        <h2>Submissão de trabalhos</h2>
+                        <div class="line-up">
+                            <div class="work-content-p">
+                                <p>Submeta aqui seu trabalho para o IV Seminário Internacional de Tecnologia de Ensino -
+                                    SEMITE</p>
+                                <p>Data limite de envio até 31 de outubro de 2023</p>
+                            </div>
+                            <div class="work-conttent-button">
+                                <a href="Pages/Alert.html">Submeter</a>
+                                <span>*Sujeito à análise</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class=footer>
+        <div class=Contact>
+            <div class=logo-footer>
+                <h2>IV SEMIT</h2>
+            </div>
+            <div class=map-website>
+                <h2 class=map-title>
+                    Mapa do Site
+                </h2>
+                <ul class=map-bar>
+                    <li><a href=#welcome>Início</a></li>
+                    <li><a href=#events>Programação</a></li>
+                    <li><a href=#short-speakers>Palestrantes</a></li>
+                    <li><a href=#short-courses>Minicursos</a></li>
+                    <li><a href=#work-submission>Trabalho</a></li>
+                </ul>
+            </div>
+            <div class=social-media>
+                <h2 class=map-title>
+                    Contatos e redes sociais
+                </h2>
+                <ul class=media-bar>
+                    <li><a href="https://www.google.com/maps/place/UFERSA+-+Universidade+Federal+Rural+do+Semi-%C3%81rido,+Campus+de+Pau+dos+Ferros/@-6.1045631,-38.1860046,17z/data=!3m1!4b1!4m6!3m5!1s0x7bb32fb967ce7ed:0xc1598bca44aabc30!8m2!3d-6.1045684!4d-38.1834297!16s%2Fg%2F1ptwmftym?entry=ttu"
+                            target=_blank>UFERSA, BR-226, s/n, Pau dos Ferros - RN, 59900-000</a></li>
+                    <li><a href=#>(84) 3317-8512</a></li>
+                    <li><a href=#>Semite@ufersa.edu.br</a></li>
+                    <li><a href=# target=_blank>Instagram</a></li>
+                    <li><a href=# target=_blank>YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class=copyrightfooter>
+                <p>&copy; 2023 Todos os Direitos Reservados à UFERSA | Densenvolvido por Altotech.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/Index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./Pages/js/courses.js"></script>
+    <script src="../Js/Header.js"></script>
+    <script src="../Js/Events.js"></script>
+    <script src="https://kit.fontawesome.com/d63b95226d.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
