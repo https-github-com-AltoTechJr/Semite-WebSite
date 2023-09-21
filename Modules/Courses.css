@@ -9,7 +9,7 @@
   width: 100%;
   height: 90%;
   border-radius: 20px;
-  background: #14302F99;
+  background: var(--background2);
 }
 
 .swiper {
@@ -44,7 +44,7 @@
 }
 
 .text-prof {
-  padding: 8rem 0rem;
+  padding: 2rem 0rem;
   font-size: 15px;
 }
 
@@ -96,7 +96,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #14302F99;
+  background: var(--background2);
   color: white;
   padding: 10px;
   transform: translateY(65%);

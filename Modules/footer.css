@@ -29,13 +29,14 @@
 }
 
 .footer {
+    position: absolute;
     height: 60vh;
-    background: #14302F99;
+    background: var(--background2);
     border-radius: 20px 20px 0 0;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    box-shadow: rgba(34, 35, 58, .5) 0 5px 50px
+    box-shadow: rgba(0, 5, 90, 0.5) 0 5px 50px
 }
 
 .copyrightfooter {
