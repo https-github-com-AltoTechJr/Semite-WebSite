@@ -121,7 +121,7 @@
 }
 
 #register-btn button {
-    background: #14302F;
+    background: var(--background1);
     border: none;
     color: #fff;
     font-size: 24px;
@@ -137,8 +137,8 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    border: 2px solid #14302F;
-    color: #14302F;
+    border: 2px solid var(--background1);
+    color: var(--background1);
     font-size: 24px;
     font-weight: 800;
     border-radius: 20px;
