@@ -3,7 +3,6 @@ body{
 }
 .update-container {
     display: flex;
-    
     flex-direction: column;
     justify-content: center;
 }
@@ -13,13 +12,15 @@ body{
     backdrop-filter: blur(26.5px);
 }
 
-.header h1{
+.header div{
+    
     color: #FFF;
     font-size: 28.619px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 40.067px */    
 }
+/* main */
 
 .container-title {
 
@@ -27,9 +28,13 @@ body{
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
-    line-height: 140%; /* 56px */
+    line-height: 140%; 
     text-align: center;
     padding-top: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
 
 }
 .container-p{
@@ -85,6 +90,9 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.data h1{
+    text-align: center;
+}
 .data-input{
     padding: 12px;
     width: 452px;
@@ -110,6 +118,11 @@ body{
 .data-form{
     display: flex;
     gap: 8px;
+}
+
+.data-flex{
+    display: flex;
+    flex-direction: column;
 }
 
 /* DADOS DO TRABALHO */
@@ -205,15 +218,16 @@ body{
     margin: 0 10px;
 }
 
+@media screen and (max-width: 1520px) {
+
+}
 
 @media screen and (max-width: 1400px) {
    
 }
 
 @media screen and (max-width: 1200px) {
-    .data h1{
-        padding-left: 3rem;
-    }
+    
     .container-p{
         
         width: 80%;
@@ -221,12 +235,11 @@ body{
 }
 
 @media screen and (max-width: 992px) {
-   .data h1{
-    padding-left: 7rem;
-   }
+  
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 800px) {
     .container-p {
         padding: 0;
     }
@@ -241,9 +254,12 @@ body{
     .data-cont {
         flex-direction: column;
     }
+    .data-form{
+        flex-direction: column;
+    }
     .update-agroup{
         flex-direction: column;
-        align-items: normal;
+        gap: 16px;
     }
 
 }
@@ -282,4 +298,31 @@ body{
         padding: 0;
         margin-left: 8px;
     }
+    #register-btn{
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) { 
+    .container-p :nth-child(2) {
+        font-size: 16px;
+    }
+    .container-p :nth-child(3) {
+        font-size: 13px;
+    }
+    .container-title{
+        padding-left: 2rem;
+    }
+    .container-title h1{
+        font-size: 25px;
+    }
+    .data-cont{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+   
 }
