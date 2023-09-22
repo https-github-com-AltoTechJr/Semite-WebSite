@@ -44,7 +44,7 @@ passwordField.addEventListener('blur', () => {
 });
 
 select.addEventListener('change', function () {
-    if (select.value === 'aluno-graduacao') {
+    if (select.value === 'aluno-graduacao' || select.value === 'aluno-pos-graduacao' || select.value === 'geral') {
         fileInput.style.display = 'block';
     } else {
         fileInput.style.display = 'none';

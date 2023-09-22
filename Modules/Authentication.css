@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+:root {
+    --background1: #020829;
+    --background2: #020829bf;
+}
+
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -34,25 +40,42 @@
 
 .section-authentication {
     height: 100vh;
-    background: url(/Assets/background.png) no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: flex-end;
+}
+
+
+.background {
+
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+
+}
+
+.background #video1 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
 }
 
 .wrapper-authentication {
     width: 50%;
     height: auto;
-    background: #D9D9D994 58%;
-    backdrop-filter: blur(10px);
+    background: var(--background2);
+    backdrop-filter: blur(1px);
     display: flex;
     height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    border-radius: 30px 0px 0px 30px;
+    border-radius: 0px 30px 30px 0px;
 }
 
 .wrapper-authentication .authentication-box {
@@ -66,7 +89,7 @@
 
 .authentication-box .authentication-title {
     text-align: center;
-    color: #002d2d;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -101,7 +124,7 @@
     width: 30%;
     border-radius: 1vw;
     border: none;
-    background-color: #002d2d;
+    background-color:#081a83;
     color: #FFF;
     font-size: 1.5vw;
     font-weight: 600;
@@ -109,10 +132,11 @@
 }
 
 .authentication-btn:hover {
-    background-color: #004040;
+    background-color: #0e87ce;
 }
 
 .authentication-borders {
+    color: white;
     height: 15%;
     width: 100%;
     display: flex;
@@ -125,9 +149,13 @@
 
 .authentication-borders .border-left,
 .border-right {
-    border-top: 1px solid #14302F;
+    border-top: 1px solid white;
     width: 25%;
     margin: 0 1%;
+}
+
+h3{
+    color: white;
 }
 
 .authentication-media-options {
@@ -176,6 +204,7 @@
 
 .link-box a {
     margin: 0 auto;
+    color: #00ceff;
     align-items: center;
     font-size: 1;
     text-decoration: none;
@@ -292,6 +321,7 @@
 
 
 .info-text-file {
+    color: white;
     margin-top: 2%;
     font-size: 0.8vw;
     margin-left: 7%;
@@ -359,7 +389,7 @@ input::placeholder {
 }
 
 .Details-text h2 {
-    color: #002D2D;
+    color: white;
     font-weight: 600;
     line-height: 1.2;
     font-size: 2.5vw;
@@ -377,12 +407,14 @@ input::placeholder {
 }
 
 .Details-text p {
+    color: white;
     font-size: 1vw;
     line-height: 28px;
     letter-spacing: 3px;
 }
 
 .wrapper-Details {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -406,8 +438,6 @@ input::placeholder {
     margin-left: 2%;
 }
 
-
-
 .accomplishment .accomplishment-right .accomplishment-right-img img, .accomplishment .accomplishment-left .accomplishment-left-img img:first-child {
     padding: 0 4%;
     max-height: 3vw;
@@ -425,9 +455,6 @@ input::placeholder {
 
     .section-authentication {
         justify-content: space-evenly;
-        background: url(/Assets/background.png) no-repeat;
-        background-size: cover;
-        background-position: center;
         height: 100vh;
         align-items: center;
         display: flex;
@@ -588,7 +615,6 @@ input::placeholder {
     }
     
     .Details-text h2 {
-        color: #002D2D;
         font-weight: 600;
         line-height: 1.2;
         font-size: 2vw; 
@@ -654,9 +680,6 @@ input::placeholder {
 @media screen and (max-width: 540px) {
     .section-authentication {
         justify-content: space-evenly;
-        background: url(/Assets/background.png) no-repeat;
-        background-size: cover;
-        background-position: center;
         height: 100vh;
         align-items: center;
         display: flex;
@@ -820,7 +843,6 @@ input::placeholder {
         }
         
         .Details-text h2 {
-            color: #002D2D;
             font-weight: 600;
             line-height: 1.2;
             font-size: 2.5vw;

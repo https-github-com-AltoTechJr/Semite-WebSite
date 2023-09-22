@@ -99,7 +99,7 @@
   background: var(--background2);
   color: white;
   padding: 10px;
-  transform: translateY(65%);
+  transform: translateY(70%);
   transition: transform 1s;
 }
 
@@ -110,9 +110,10 @@
 
 .data {
   margin: 0;
+  display: flex;
+  align-items: center;
   font-size: 12px;
   opacity: 1;
-  padding-top: 10px;
   transition: opacity 0.5s ease-in-out;
 }
 
@@ -149,6 +150,22 @@
 }
 
 
+.Perfil-course{
+  width: 60px;
+  height: 60px;
+}
+
+.Perfil-course img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.data p{
+  margin-left: 10px;
+}
+
 @media screen and (max-width: 1065px) {
   .carrossel{
     width: 300px;
@@ -178,7 +195,7 @@
   .carrossel{
       width: 360px;
       height: 80%;
-      left: 35%;
+      left: 20%;
   }
   
   .swiper-slide{
@@ -197,6 +214,7 @@
       max-width: 720px;
   }
 }
+
 @media screen and (max-width: 576px) {
 
   .title-text,
@@ -211,4 +229,12 @@
     transform: translateY(80%);
 }
  
+}
+@media screen and (max-width: 576px)
+{
+  
+  .text-content {
+    transform: translateY(75%);
+}
+
 }

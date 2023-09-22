@@ -23,9 +23,10 @@
 }
 
 .logo-footer h2 {
+    align-self: flex-start;
+    margin-left: 10%;
     width: 20%;
     color: #fff;
-    transform: translateX(60%) translateY(100%)
 }
 
 .footer {
@@ -69,13 +70,23 @@
 }
 
 .Contact ul li {
-    margin-bottom: 20px;
+    margin-top: 10px;
     list-style: none
 }
 
 .logo-footer {
+    display: flex;
     width: 40%;
-    height: 100%
+    height: 90%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-footer img{
+
+    width: 100px;
+    height: 80px;
+    scale: 0.9;
 }
 
 .map-website {
@@ -92,11 +103,13 @@
     flex-direction: column
 }
 
-.contac-logo {
-    width: 20%;
-    font-size: 2.5em;
-    font-weight: 900;
-    transform: translate(70%, 60%)
+.footer-apoios{
+
+    margin-top: 5%;
+    margin-left: 16%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 @media screen and (min-width:1520px) {
@@ -113,6 +126,9 @@
     .Contact a {
         font-size: .9em
     }
+    .logo-footer img{
+        scale: 0.8;
+    }
 }
 
 @media screen and (max-width:765px) {
@@ -126,6 +142,9 @@
 
     .copyrightfooter {
         font-size: .7em
+    }
+    .logo-footer img{
+        scale: 0.7;
     }
 }
 
@@ -162,15 +181,30 @@
 
     .logo-footer h2 {
         width: 100%;
-        transform: translate(0, 0)
+        margin-left: 0;
+        display: flex;
+        transform: translate(0, 40%);
+        align-items: center;
     }
 
     .logo-footer {
         height: 30%;
-        width: 100%
+        width: 100%;
+        flex-direction: row;
     }
 
     .social-media {
         width: 100%
+    }
+
+    .logo-footer img{
+        width: 60px;
+        height: 48px;
+        scale: 0.6;
+    }
+
+    .footer-apoios {
+        margin-top: 0%; 
+        margin-left: 0%;
     }
 }

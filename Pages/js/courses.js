@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         disableOnClick: false,
         breakpoints: {
             0: {
-                slidesPerView: 1.7,
+                slidesPerView: 1.4,
                 
             },
 

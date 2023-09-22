@@ -4,38 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Modules/Authentication.css">
+    <link rel="stylesheet" href="../Modules/Authentication.css">
 
     <title>SEMITE-WEBSITE</title>
 </head>
 
 <body>
+
+    <div class="background">
+
+        <video
+        id="video1"
+        src="../Assets/Background.mp4"
+        loop
+        muted
+        autoplay
+        type="video/mp4"
+
+      ></video>
+
     <section class="section-authentication">
         <div class="wrapper-Details">
             <div class="Details-text">
-                <h2>
-                    <span>IV Seminário Internacional de </span><br>Tecnologia e Ensino
-                </h2>
-                <div class="flag">
-                    <img src="./Assets/flag.svg" alt="flag">
-                </div>
-                <p>04 a 06 de Dezembro de 2023</p>
+                
+                    <h2>
+                        <span>IV Seminário Internacional de </span><br>Tecnologia e Ensino
+                    </h2>
+                    <div class="flag">
+                        <img src="../Assets/flag.svg" alt="flag">
+                    </div>
+                    <p>04 a 06 de Dezembro de 2023</p>
+                
             </div>
             <div class="accomplishment">
                 <div class="accomplishment-right">
                     <p>Realização</p>
                     <div class="accomplishment-right-img">
-                        <img src="./Assets/UFERSA.svg" alt="ufersa">
-                        <img src="./Assets/UERN.svg" alt="uern">
-                        <img src="./Assets/PPGE.svg" alt="ppge">
-                        <img src="./Assets/IFRN.svg" alt="ifrn">
+                        <img src="../Assets/UFERSA.svg" alt="ufersa">
+                        <img src="../Assets/UERN.svg" alt="uern">
+                        <img src="../Assets/PPGE.svg" alt="ppge">
+                        <img src="../Assets/IFRN.svg" alt="ifrn">
                     </div>
                 </div>
                 <div class="accomplishment-left">
                     <p>Apoio</p>
                     <div class="accomplishment-left-img">
-                        <img src="./Assets/LOGO ESTADO RN 1.svg" alt="RN">
-                        <img src="./Assets/imagem_2023-09-16_174042441-removebg-preview-removebg-preview 1.svg" alt=" ">
+                        <img src="../Assets/LOGO ESTADO RN 1.svg" alt="RN">
+                        <img src="../Assets/imagem_2023-09-16_174042441-removebg-preview-removebg-preview 1.svg" alt=" ">
                     </div>
                 </div>
             </div>
@@ -89,18 +104,18 @@
                                     </div class="authenttication-input">
                                     <div class="authenttication-input">
                                         <select name="select" id="select" aria-placeholder="Tipo de inscrição" required>
-                                            <option value="" disabled selected hidden>Tipo de Inscrição</option>
-                                            <option value="15-direc">15 DIREC</option>
-                                            <option value="aluno-graduacao">Aluno de Graduação</option>
-                                            <option value="aluno-pos-graduacao">Aluno de Pós-graduação</option>
-                                            <option value="geral">Geral</option>
+                                            <option value="" >Tipo de Inscrição</option>
+                                            <option value="15-direc">15 DIREC - ISENTO</option>
+                                            <option value="aluno-graduacao">Aluno de Graduação - R$ 20,00</option>
+                                            <option value="aluno-pos-graduacao">Aluno de Pós-graduação - R$ 25,00</option>
+                                            <option value="geral">Pesquisadores e demais profissionais - R$ 30,00</option>
                                         </select>
                                     </div>
                                     <div class="authenttication-input file">
                                         <label for="myfile" class="custom-file-input" id="fileInput">
                                             <input type="file" id="myfile" name="myfile" required>
                                             <p class="file-text-input">Enviar arquivo</p>
-                                            <img src="./Assets/Vector-upload.png" alt="">
+                                            <img src="../Assets/Vector-upload.png" alt="">
                                         </label>
                                         <p class="info-text-file">Conta: XXXXX-XX <br> Agência: XXXXX <br> Banco: XXXXX
                                             <br> Pix: XXXXXXXXXXX
@@ -124,11 +139,11 @@
             </div>
             <div class="authentication-media-options">
                 <a href="#">
-                    <img src="./Assets/flat-color-icons_google.png" alt="">
+                    <img src="../Assets/flat-color-icons_google.png" alt="">
                     <span>Entrar com o Google</span>
                 </a>
                 <a href="#">
-                    <img src="./Assets/logos_facebook.png" alt="">
+                    <img src="../Assets/logos_facebook.png" alt="">
                     <span>Entrar com o Facebook</span>
                 </a>
             </div>
@@ -144,7 +159,7 @@
             </div>
         </div>
     </section>
-    <script src="./Js/Index.js"></script>
+    <script src="../Js/Index.js"></script>
 </body>
 
 
