@@ -144,10 +144,13 @@
         height: 80%;
         text-align: center;
         font-size: 18px;
+        padding-left: 0;
     }
     .work-content-p :nth-child(2) {
+        width: 90%;
         margin-left: 0%;
         text-align: center;
+        padding-left: 0;
     }
 
     
