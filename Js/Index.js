@@ -31,7 +31,7 @@ passwordField.addEventListener('click', () => {
     infoTextPassword.style.display = 'block';
 
     if (window.innerWidth > 768) {
-        customFileInput.style.marginTop = '30px';
+        customFileInput.style.marginTop = '7%';
     }
 });
 

@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="Modules/Round-table.css">
     <link rel="stylesheet" href="../Modules/Work.css">
     <link rel="stylesheet" href="../Modules/footer.css">
+    <link rel="stylesheet" href="../Modules/Patrocinadores.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body id="Body-Home">
 
-    <header class="container">
+    <header>
         <nav class="Header-nav">
             <div class="logo-container">
                 IV SEMITE
@@ -51,6 +52,7 @@
                                 <p>Trabalhos</p>
                             </a></li>
                     </ul>
+                    <div id="mobile-button-login"><a href="#" id="Button-login"><p>Cadastre-se</p></a></div>
                     <div id="name-logo-mobile">
                         <p id="text-mobile">IV SEMITE</p>
                     </div>
@@ -78,8 +80,12 @@
                             class="fa-solid fa-briefcase"></i>
                         <p>Trabalhos</p>
                     </a></li>
-
+                <li>
+                    <a href="#" id="Button-login"><p>Cadastre-se</p></a>
+                </li>
             </ul>
+
+            
 
             <div id="Header-menu-mobile"><i id="Menubtn" class="fa-solid fa-bars-staggered"></i></div>
 
@@ -87,15 +93,7 @@
     </header>
     <div class="background">
 
-        <video
-        id="video1"
-        src="Assets/Background.mp4"
-        loop
-        muted
-        autoplay
-        type="video/mp4"
-
-      ></video>
+        <video id="video1" src="Assets/Background.mp4" loop muted autoplay type="video/mp4"></video>
 
     </div>
     <main>
@@ -106,26 +104,54 @@
                         <h1>BEM-VINDOS AO <br><span>IV SEMITE</span></h1>
 
                         <div class="text-welcome">
-                            <p>O Seminário Internacional de Tecnologia e Ensino (SEMITE) visa promover encontros científicos e pedagógicos entre pesquisadores internacionais que atuem na área da Tecnologia Educacional. O SEMITE tem sido organizado pelo Programa de Pós-Graduação em Ensino (PPGE) do Campus de Pau dos Ferros da Universidade do Estado do Rio Grande do Norte.</p>
-                            <p>A primeira edição realizou-se no ano de 2015 e contou com a participação de pesquisadores do Brasil, Portugal, Espanha e Costa Rica. Na primeira edição, participaram cerca de 200 estudantes de graduação e pós-graduação, na sua maioria, de universidades dos estados do Rio Grande do Norte, Ceará e Paraíba.</p>
-                            <p>A segunda edição realizou-se no ano de 2018 e contou com a participação de convidados do Brasil, Portugal e Cabo Verde. Nesta edição, foram criados espaços de partilha para pesquisadores e estudantes de pós-graduação do Brasil (PPGE-UERN) e do Programa de Mestrado em Pedagogia da Universidade de Santiago, Cabo Verde. Mais uma vez, o evento contou com a participação de quase 200 estudantes de graduação e pós-graduação na área de educação.</p>
-                            <p>A terceira edição do SEMITE contou com a participação de pesquisadores do Brasil, Cabo Verde, Costa Rica, Honduras e Portugal. Além do Programa de Pós-Graduação em Ensino da Universidade do Estado do Rio Grande do Norte, o evento contou com a parceria do Mestrado em Pedagogia da Universidade de Santiago (Cabo Verde) e o do Programa de Pós-Graduação em Educação da Universidade Federal de Santa Maria (Brasil).</p>
-                            <p>A quarta edição do SEMITE contará com a participação de pesquisadores do Brasil, de Moçambique, Portugal, Peru, Espanha. Será realizado com a participação da Universidade Federal Rural do Semi-Árido, da 15ª DIREC do Estado do Rio Grande do Norte, do Instituto Federal do Acre (IFAC), da Universidade Federal da Fronteira Sul (UFFS) e da Universidade Federal do Amazonas (UFAM).</p>
-                            <p>O SEMITE será realizado nos dias 04, 05 e 06 de dezembro de 2023 na modalidade híbrida.</p>
+                            <p>O Seminário Internacional de Tecnologia e Ensino (SEMITE) visa promover encontros
+                                científicos e pedagógicos entre pesquisadores internacionais que atuem na área da
+                                Tecnologia Educacional. O SEMITE tem sido organizado pelo Programa de Pós-Graduação em
+                                Ensino (PPGE) do Campus de Pau dos Ferros da Universidade do Estado do Rio Grande do
+                                Norte.</p>
+                            <p>A primeira edição realizou-se no ano de 2015 e contou com a participação de pesquisadores
+                                do Brasil, Portugal, Espanha e Costa Rica. Na primeira edição, participaram cerca de 200
+                                estudantes de graduação e pós-graduação, na sua maioria, de universidades dos estados do
+                                Rio Grande do Norte, Ceará e Paraíba.</p>
+                            <p>A segunda edição realizou-se no ano de 2018 e contou com a participação de convidados do
+                                Brasil, Portugal e Cabo Verde. Nesta edição, foram criados espaços de partilha para
+                                pesquisadores e estudantes de pós-graduação do Brasil (PPGE-UERN) e do Programa de
+                                Mestrado em Pedagogia da Universidade de Santiago, Cabo Verde. Mais uma vez, o evento
+                                contou com a participação de quase 200 estudantes de graduação e pós-graduação na área
+                                de educação.</p>
+                            <p>A terceira edição do SEMITE contou com a participação de pesquisadores do Brasil, Cabo
+                                Verde, Costa Rica, Honduras e Portugal. Além do Programa de Pós-Graduação em Ensino da
+                                Universidade do Estado do Rio Grande do Norte, o evento contou com a parceria do
+                                Mestrado em Pedagogia da Universidade de Santiago (Cabo Verde) e o do Programa de
+                                Pós-Graduação em Educação da Universidade Federal de Santa Maria (Brasil).</p>
+                            <p>A quarta edição do SEMITE contará com a participação de pesquisadores do Brasil, de
+                                Moçambique, Portugal, Peru, Espanha. Será realizado com a participação da Universidade
+                                Federal Rural do Semi-Árido, da 15ª DIREC do Estado do Rio Grande do Norte, do Instituto
+                                Federal do Acre (IFAC), da Universidade Federal da Fronteira Sul (UFFS) e da
+                                Universidade Federal do Amazonas (UFAM).</p>
+                            <p>O SEMITE será realizado nos dias 04, 05 e 06 de dezembro de 2023 na modalidade híbrida.
+                            </p>
                             <p class="title-welcome">Objetivos</p>
-                            <p><ul id="list-welcome">
+                            <p>
+                            <ul id="list-welcome">
                                 <li>Divulgar resultados de pesquisas científicas sobre Tecnologias e Ensino</li>
-                                <li>Conhecer experiências de utilização das tecnologias digitais nos contextos educativos</li>
-                                <li>Analisar políticas públicas para inserção das tecnologias digitais nos sistemas educativos internacionais</li>
-                            </ul></p>
+                                <li>Conhecer experiências de utilização das tecnologias digitais nos contextos
+                                    educativos</li>
+                                <li>Analisar políticas públicas para inserção das tecnologias digitais nos sistemas
+                                    educativos internacionais</li>
+                            </ul>
+                            </p>
                             <p class="title-welcome">Público Alvo</p>
-                            <p><ul id="list-welcome">
+                            <p>
+                            <ul id="list-welcome">
                                 <li>Estudantes de graduação e pós-graduação</li>
                                 <li>Profissionais da Educação Básica e do Ensino Superior</li>
                                 <li>Outros profissionais interessados na temática do evento</li>
-                            </ul></p>
+                            </ul>
+                            </p>
                             <p class="title-welcome">Comissão Organizadora</p>
-                            <p><ul id="list-welcome">
+                            <p>
+                            <ul id="list-welcome">
                                 <li>Glaydson Francisco Barros de Oliveira (Ufersa/PPGE)</li>
                                 <li>Geiser Chalco Challco (Ufersa)</li>
                                 <li>Francisco Carlos Gurgel da Silva Segundo (Ufersa)</li>
@@ -136,9 +162,11 @@
                                 <li>Judite Scherer Wenzel (UFFS)</li>
                                 <li>Ayla Márcia Cordeiro Bizerra (IFRN/PPGE)</li>
                                 <li>Eduardo Araújo de Medeiros (Ufersa)</li>
-                            </ul></p>
+                            </ul>
+                            </p>
                             <p class="title-welcome">Comissão Científica</p>
-                            <p><ul id="list-welcome">
+                            <p>
+                            <ul id="list-welcome">
                                 <li>Otávio Paulino Floriano (Ufersa)</li>
                                 <li>Francisco Carlos Gurgel da Silva Segundo (Ufersa)</li>
                                 <li>Elrismar Auxiliadora Gomes Oliveira (UFAM)</li>
@@ -148,7 +176,8 @@
                                 <li>Lúcia Pessoa Sampaio (UERN)</li>
                                 <li>Apiano Ferreira de Morais Neto (URCA)</li>
                                 <li>Kyteria Sabino Lopes de Figueredo (Ufersa)</li>
-                            </ul></p>
+                            </ul>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -705,7 +734,11 @@
                                     <div class="carrossel">
                                         <img class="img" src="/Assets/Palestra 1.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Palestra 1.jpg" alt=""></div><p>04/12 - 09h30min às 10h30min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Palestra 1.jpg" alt="">
+                                                </div>
+                                                <p>04/12 - 09h30min às 10h30min</p>
+                                            </h2>
                                             <p class="title-text">Conferência de Abertura...</p>
                                             <p class="text-info">Conferência de Abertura: "Desafios do Ensino na era
                                                 Digital. (Presencial)"</p>
@@ -718,7 +751,11 @@
                                     <div class="carrossel">
                                         <img class="img" src="/Assets/Palestra 2.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Palestra 2.jpg" alt=""></div><p>05/12 - 8h00min às 9h00min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Palestra 2.jpg" alt="">
+                                                </div>
+                                                <p>05/12 - 8h00min às 9h00min</p>
+                                            </h2>
                                             <p class="title-text">Plataforma robótica educacional...</p>
                                             <p class="text-info">Plataforma robótica educacional para ensino, Ciência
                                                 prática: repensando a educação STEAM em tempos de incerteza.(Remota)</p>
@@ -732,7 +769,11 @@
                                     <div class="carrossel">
                                         <img class="img" src="/Assets/palestra 4.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Palestra 4.jpg" alt=""></div><p>05/12 - 10:00min às 11h00min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Palestra 4.jpg" alt="">
+                                                </div>
+                                                <p>05/12 - 10:00min às 11h00min</p>
+                                            </h2>
                                             <p class="title-text">Tecnologia e Inovação...</p>
                                             <p class="text-info">Conferência: "Tecnologia e Inovação: experiências e
                                                 tendências internacionais. (Presencial)"</p>
@@ -745,7 +786,11 @@
                                     <div class="carrossel">
                                         <img class="img" src="/Assets/Palestra 3.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Palestra 3.jpg" alt=""></div><p>06/12 - 08h30min às 9h30min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Palestra 3.jpg" alt="">
+                                                </div>
+                                                <p>06/12 - 08h30min às 9h30min</p>
+                                            </h2>
                                             <p class="title-text">Redução da exclusão digital...</p>
                                             <p class="text-info">Rumo à redução da exclusão digital no Brasil: avançando
                                                 oportunidades de aprendizagem com inteligência artificial, inteligência
@@ -759,7 +804,10 @@
                                     <div class="carrossel">
                                         <img class="img" src="Assets/palestra.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Palestra.jpg" alt=""></div><p>06/12 - 14h00min às 15h00min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Palestra.jpg" alt=""></div>
+                                                <p>06/12 - 14h00min às 15h00min</p>
+                                            </h2>
                                             <h2 class="data"></h2>
                                             <p class="title-text">Incorporação de TICs...
                                             </p>
@@ -802,7 +850,11 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/Minicurso 1.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 1.jpg" alt=""></div><p>04/12 - 14h00min às 18h00min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 1.jpg" alt="">
+                                                </div>
+                                                <p>04/12 - 14h00min às 18h00min</p>
+                                            </h2>
                                             <h2 class="data"></h2>
                                             <p class="title-text">Sistemas de Tutores Inteligentes...</p>
                                             <p class="text-info">O que são Sitemas de Tutores Inteligentes e como
@@ -817,7 +869,11 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/Minicurso 2.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 2.jpg" alt=""></div><p>04/12 - 14h00min às 18h00min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 2.jpg" alt="">
+                                                </div>
+                                                <p>04/12 - 14h00min às 18h00min</p>
+                                            </h2>
                                             <p class="title-text">As TIC’s e a Educação...</p>
                                             <p class="text-info">As TIC’s e a Educação: o cine debate como recurso
                                                 pedagógico.
@@ -832,9 +888,13 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/Minicurso 10.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 10.jpg" alt=""></div><p>04/12 - 14h00min às 18h00min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 10.jpg" alt="">
+                                                </div>
+                                                <p>04/12 - 14h00min às 18h00min</p>
+                                            </h2>
                                             <p class="title-text">Programação criativa...</p>
-                                            <p class="text-info"> Programação criativa é um estilo de desenvolvimento
+                                            <p class="text-info">Desenvolvimento
                                                 com foco na criação de
                                                 algo expressivo como em visuais, entretenimento, artes, sons e
                                                 protótipos. (Presencial)
@@ -848,7 +908,11 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/Minicurso 7.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 7.jpg" alt=""></div><p>04/12 - 14h00min às 18h00min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 7.jpg" alt="">
+                                                </div>
+                                                <p>04/12 - 14h00min às 18h00min</p>
+                                            </h2>
                                             <p class="title-text">Educação científica...</p>
                                             <p class="text-info">Educação científica com enfoque CTSA na educação
                                                 básica: um olhar interdisciplinar. (Presencial)
@@ -863,9 +927,14 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/Minicurso 6.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 6.jpg" alt=""></div><p>05/12 - 15h40min às 19h40min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 6.jpg" alt="">
+                                                </div>
+                                                <p>05/12 - 15h40min às 19h40min</p>
+                                            </h2>
                                             <p class="title-text"> Robótica Educacional...</p>
-                                            <p class="text-info"> Robótica Educacional com Material Manipulável. (Presencial)
+                                            <p class="text-info"> Robótica Educacional com Material Manipulável.
+                                                (Presencial)
                                             </p>
                                             <p class="text-prof">Prof. Dr. Petrúcio Ricardo Medeiros
                                             </p>
@@ -877,7 +946,11 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/Minicurso 5.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 5.jpg" alt=""></div><p>05/12 - 15h40min às 19h40min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 5.jpg" alt="">
+                                                </div>
+                                                <p>05/12 - 15h40min às 19h40min</p>
+                                            </h2>
                                             <p class="title-text">Introdução a programação Blockly...</p>
                                             <p class="text-info">Introdução a programação Blockly. (Presencial)
                                             </p>
@@ -891,10 +964,15 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/Minicurso 11.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 11.jpg" alt=""></div><p>05/12 - 15h40min às 19h40min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 11.jpg" alt="">
+                                                </div>
+                                                <p>05/12 - 15h40min às 19h40min</p>
+                                            </h2>
                                             <p class="title-text">Modelagem para impressão 3D...
                                             </p>
-                                            <p class="text-info">Modelagem para impressão 3D utilizando o fusion 360. (Presencial)
+                                            <p class="text-info">Modelagem para impressão 3D utilizando o fusion 360.
+                                                (Presencial)
                                             </p>
                                             <p class="text-prof">Prof. Dr. Cecilio Martins Sousa Neto
                                             </p>
@@ -906,7 +984,11 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/Minicurso 8.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 8.jpg" alt=""></div><p>05/12 - 15h40min às 19h40min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 8.jpg" alt="">
+                                                </div>
+                                                <p>05/12 - 15h40min às 19h40min</p>
+                                            </h2>
                                             <p class="title-text">O uso da tecnologia audiovisual...
                                             </p>
                                             <p class="text-info">O uso da tecnologia audiovisual como estratégia de
@@ -922,10 +1004,15 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/Minicurso 13.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 13.jpg" alt=""></div><p>05/12 - 15h40min às 19h40min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 13.jpg" alt="">
+                                                </div>
+                                                <p>05/12 - 15h40min às 19h40min</p>
+                                            </h2>
                                             <p class="title-text">Introdução ao software R...
                                             </p>
-                                            <p class="text-info">R é uma linguagem e ambiente para computação estatística e gráfica. (Presencial)
+                                            <p class="text-info">R é uma linguagem e ambiente para computação
+                                                estatística e gráfica. (Presencial)
                                             </p>
                                             <p class="text-prof">Prof. Antônio de Pádua Farias de Souza Filho
                                             </p>
@@ -937,7 +1024,11 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/Minicurso 3.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 3.jpg" alt=""></div><p>06/12 - 9h40min às 12h30min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 3.jpg" alt="">
+                                                </div>
+                                                <p>06/12 - 9h40min às 12h30min</p>
+                                            </h2>
                                             <p class="title-text">Software VOSviewer para anális...</p>
                                             <p class="text-info">Como utilizar o software VOSviewer para análise
                                                 bibliométrica. (presebcial)</p>
@@ -950,9 +1041,14 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/minicurso 4.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 4.jpg" alt=""></div><p>06/12 - 9h40min às 12h30min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 4.jpg" alt="">
+                                                </div>
+                                                <p>06/12 - 9h40min às 12h30min</p>
+                                            </h2>
                                             <p class="title-text">Desenvolvendo um jogo...</p>
-                                            <p class="text-info">Desenvolvendo um jogo sério utilizando o PowerPoint. (Presencial)
+                                            <p class="text-info">Desenvolvendo um jogo sério utilizando o PowerPoint.
+                                                (Presencial)
                                             </p>
                                             <p class="text-prof">Prof. Dr. Francisco Carlos Gurgel da Silva Segundo
                                             </p>
@@ -964,7 +1060,11 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/Minicurso 9.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 9.jpg" alt=""></div><p>06/12 - 9h40min às 12h30min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 9.jpg" alt="">
+                                                </div>
+                                                <p>06/12 - 9h40min às 12h30min</p>
+                                            </h2>
                                             <p class="title-text">Utilizando ferramentas de IA...</p>
                                             <p class="text-info"> Utilizando ferramentas de IA para organização de
                                                 referências em Revisão Sistemática da Literatura. (Presencial)
@@ -980,9 +1080,14 @@
                                     <div class="carrossel">
                                         <img class="img" src="../Assets/Minicurso 12.jpg" alt="">
                                         <div class="text-content">
-                                            <h2 class="data"><div class="Perfil-course"><img src="Assets/Minicurso 12.jpg" alt=""></div><p>06/12 - 9h40min às 12h30min</p></h2>
+                                            <h2 class="data">
+                                                <div class="Perfil-course"><img src="Assets/Minicurso 12.jpg" alt="">
+                                                </div>
+                                                <p>06/12 - 9h40min às 12h30min</p>
+                                            </h2>
                                             <p class="title-text">Inteligência Artificial na Educação...</p>
-                                            <p class="text-info">Conhecimento sobre ferramentas de IA como Chat GPT, Gamma.app e Tome.app como utilizar de forma educacional. (Presencial)
+                                            <p class="text-info">Conhecimento sobre ferramentas de IA como Chat GPT,
+                                                Gamma.app e Tome.app como utilizar de forma educacional. (Presencial)
                                             </p>
                                             <p class="text-prof">Prof. Marlon Ferreira de Aquino - 15ª DIREC
                                             </p>
@@ -1020,18 +1125,19 @@
                                 <img src="Assets/Mesa 2.jpg" alt="">
                                 <p>Profa. Dra. Paula Vanessa Bervian (UFFS/PPGEC)</p>
                             </div>
-                            
-                               
+
+
                             <div class="Round-table-img">
                                 <img src="Assets/Mesa 3.jpg" alt="">
                                 <p>Prof. Dr. Dioni Pastorio (UFRGS/UFFS/PPGEC)</p>
                             </div>
-                           
+
 
                         </div>
 
                         <div class="Round-table-description">
-                            <p id="Round-table-description-title">Um diálogo entre TPACK e as TDIC como Instrumentos Culturais na Formação de Professores de Ciências</p>
+                            <p id="Round-table-description-title">Um diálogo entre TPACK e as TDIC como Instrumentos
+                                Culturais na Formação de Professores de Ciências</p>
                             <p>14h00min às 15h30min</p>
                             <p>Modalidade (Remota)</p>
                         </div>
@@ -1061,17 +1167,42 @@
                 </div>
             </div>
         </section>
+
+        <section class="Patrocinadores">
+            <div class="container">
+                <div class="patrocinadores-container">
+                    <div class="patrocinadores-content">
+
+                        <div data-aos=zoom-in class=span-logos>
+                            <div class=container-span-logos></div>
+                            <p id=logos-title>Parcerias</p>
+                            <div class=logos>
+                                <div class=logos-slide>
+                                    <a href=# target=_blank><img src="Assets/Pratrocinador 1.png"></a>
+                                    <a href=# target=_blank><img src="Assets/Pratrocinador 2.png"></a>
+                                    <a href=# target=_blank><img src="Assets/Pratrocinador 3.png"></a>
+                                    <a href=# target=_blank><img src="Assets/Pratrocinador 4.png"></a>
+                                    <a href=# target=_blank><img src="Assets/Pratrocinador 5.png"></a>
+                                    <a href=# target=_blank><img src="Assets/Pratrocinador 6.png"></a>
+                                    <a href=# target=_blank><img src="Assets/Pratrocinador 7.png"></a>
+                                    <a href=# target=_blank><img src="Assets/Pratrocinador 8.png"></a>
+                                    <a href=# target=_blank><img src="Assets/Pratrocinador 9.png"></a>
+                                    <a href=# target=_blank><img src="Assets/Pratrocinador 9.png"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>iner
+
+        </section>
     </main>
     <footer class=footer>
         <div class=Contact>
             <div class=logo-footer>
                 <h2>SEMITE</h2>
                 <div class="footer-apoios">
-                    <img src="Assets/15 DIREC.png" alt="">
-                    <img src="Assets/CAPES.png" alt="">
-                </div>
-                <div class="footer-apoios">
-                    <img src="Assets/SEEC.png" alt="">
                     <img src="Assets/AltoTech.png" alt="">
                 </div>
             </div>
@@ -1111,6 +1242,7 @@
     <script src="./Pages/js/courses.js"></script>
     <script src="../Js/Header.js"></script>
     <script src="../Js/Events.js"></script>
+    <script src="../Js/Patrocinadores.js"></script>
     <script src="https://kit.fontawesome.com/d63b95226d.js" crossorigin="anonymous"></script>
 
 

@@ -22,14 +22,12 @@ section {
 }
 
 .Header-nav {
-    height: 15vh;
+    height: 12vh;
     position: fixed;
     display: flex;
     background: var(--background1);
     width: 100%;
-    max-width: 1200px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 0 0 20px 20px;
     z-index: 2;
     justify-content: space-between;
     align-items: center;
@@ -116,10 +114,6 @@ section {
     .container {
         max-width: calc(1216px + 3rem);
     }
-
-    .Header-nav {
-        max-width: calc(1216px + 3rem);
-    }
 }
 
 @media screen and (max-width: 1366px) {
@@ -127,26 +121,16 @@ section {
         max-width: 1300px;
     }
 
-    .Header-nav {
-        max-width: 1300px;
-    }
 }
 @media screen and (max-width: 1200px) {
     .container {
         max-width: 1100px;
     }
 
-    .Header-nav {
-        max-width: 1100px;
-    }
 }
 
 @media screen and (max-width: 992px) {
     .container {
-        max-width: 960px;
-    }
-
-    .Header-nav {
         max-width: 960px;
     }
 }
@@ -157,7 +141,6 @@ section {
     }
 
     .Header-nav {
-        max-width: 720px;
         height: 10vh;
     }
 
@@ -166,10 +149,6 @@ section {
 
 @media screen and (max-width: 576px) {
     .container {
-        max-width: 540px;
-    }
-
-    .Header-nav {
         max-width: 540px;
     }
 }

@@ -80,13 +80,13 @@
     height: 90%;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.logo-footer img{
-
-    width: 100px;
-    height: 80px;
-    scale: 0.9;
+.logo-footer img {
+    width: 110px;
+    height: 83px;
+    scale: 1.2;
 }
 
 .map-website {
@@ -118,6 +118,14 @@
     }
 }
 
+@media screen and (max-width:1200px){
+
+    .logo-footer img{
+        scale: 1.0;
+    }
+
+}
+
 @media screen and (max-width:900px) {
     .map-title {
         font-size: 1.3em
@@ -127,7 +135,7 @@
         font-size: .9em
     }
     .logo-footer img{
-        scale: 0.8;
+        scale: 0.9;
     }
 }
 
@@ -144,7 +152,7 @@
         font-size: .7em
     }
     .logo-footer img{
-        scale: 0.7;
+        scale: 0.8;
     }
 }
 
@@ -183,7 +191,7 @@
         width: 100%;
         margin-left: 0;
         display: flex;
-        transform: translate(0, 40%);
+        transform: translate(0, 100%);
         align-items: center;
     }
 
@@ -197,10 +205,8 @@
         width: 100%
     }
 
-    .logo-footer img{
-        width: 60px;
-        height: 48px;
-        scale: 0.6;
+    .footer-apoios {
+        width: 30%;
     }
 
     .footer-apoios {

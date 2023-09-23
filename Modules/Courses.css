@@ -73,10 +73,10 @@
   text-decoration: none;
   position: absolute;
   bottom: 40px;
-  padding: 0.5rem 2rem;
+  padding: 0.3rem 2.5rem;
   justify-content: center;
   display: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
   color: white;
@@ -99,7 +99,7 @@
   background: var(--background2);
   color: white;
   padding: 10px;
-  transform: translateY(70%);
+  transform: translateY(65%);
   transition: transform 1s;
 }
 
@@ -117,10 +117,15 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-.title-text,
-.text-info {
+.title-text {
   transition: opacity 0.5s ease-in-out;
   font-size: 20px;
+  padding-top: 1rem;
+}
+
+.text-info {
+  transition: opacity 0.5s ease-in-out;
+  font-size: 16px;
   padding-top: 1rem;
 }
 
