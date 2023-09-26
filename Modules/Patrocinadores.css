@@ -64,6 +64,7 @@
 }
 
 .logos {
+    margin-top: 1rem;
     width: 100%;
     white-space: nowrap;
     padding: 20px 0
