@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IV SEMITE</title>
-    <link rel="stylesheet" href="../Modules/CssBody.css">
-    <link rel="stylesheet" href="../Modules/Header.css">
-    <link rel="stylesheet" href="../Modules/Welcome.css">
-    <link rel="stylesheet" href="../Modules/Events.css">
-    <link rel="stylesheet" href="../Modules/Courses.css">
+    <link rel="stylesheet" href="Modules/CssBody.css">
+    <link rel="stylesheet" href="Modules/Header.css">
+    <link rel="stylesheet" href="Modules/Welcome.css">
+    <link rel="stylesheet" href="Modules/Events.css">
+    <link rel="stylesheet" href="Modules/Courses.css">
     <link rel="stylesheet" href="Modules/Round-table.css">
-    <link rel="stylesheet" href="../Modules/Work.css">
-    <link rel="stylesheet" href="../Modules/footer.css">
-    <link rel="stylesheet" href="../Modules/Patrocinadores.css">
+    <link rel="stylesheet" href="Modules/Work.css">
+    <link rel="stylesheet" href="Modules/footer.css">
+    <link rel="stylesheet" href="Modules/Patrocinadores.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
@@ -101,9 +103,11 @@
             <div class="container">
                 <div class="welcome-container">
                     <div class="welcome-content">
-                        <h1>BEM-VINDOS AO <br><span>IV SEMITE</span></h1>
+                        <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">BEM-VINDOS AO <br><span>IV SEMITE</span><p id="sub-title">De 04 a 06 de Dezembro de 2023, Pau dos Ferros/RN</p></h1>
+                        
 
-                        <div class="text-welcome">
+                        <div data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1000" class="text-welcome">
                             <p>O Seminário Internacional de Tecnologia e Ensino (SEMITE) visa promover encontros
                                 científicos e pedagógicos entre pesquisadores internacionais que atuem na área da
                                 Tecnologia Educacional. O SEMITE tem sido organizado pelo Programa de Pós-Graduação em
@@ -129,8 +133,6 @@
                                 Federal Rural do Semi-Árido, da 15ª DIREC do Estado do Rio Grande do Norte, do Instituto
                                 Federal do Acre (IFAC), da Universidade Federal da Fronteira Sul (UFFS) e da
                                 Universidade Federal do Amazonas (UFAM).</p>
-                            <p>O SEMITE será realizado nos dias 04, 05 e 06 de dezembro de 2023 na modalidade híbrida.
-                            </p>
                             <p class="title-welcome">Objetivos</p>
                             <p>
                             <ul id="list-welcome">
@@ -188,7 +190,7 @@
                 <div class="events-container">
                     <div class="events-content">
 
-                        <p id="top-section-crono-title">Programação</p>
+                        <p data-aos="zoom-in" id="top-section-crono-title">Programação</p>
                         <div class="conteiner-prog">
                             <nav data-aos="zoom-in" class="Prog-events-day">
                                 <ul class="sub-navigation-button">
@@ -721,18 +723,19 @@
 
                     <div class="courses-content">
 
-                        <div class="title">
+                        <div data-aos="zoom-in" class="title">
                             <h1>Palestrantes</h1>
                         </div>
 
 
 
 
-                        <div class="swiper">
+                        <div data-aos="zoom-in" class="swiper">
+
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="/Assets/Palestra 1.jpg" alt="">
+                                        <img class="img" src="Assets/Palestra 1.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Palestra 1.jpg" alt="">
@@ -749,7 +752,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="/Assets/Palestra 2.jpg" alt="">
+                                        <img class="img" src="Assets/Palestra 2.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Palestra 2.jpg" alt="">
@@ -767,7 +770,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="/Assets/palestra 4.jpg" alt="">
+                                        <img class="img" src="Assets/palestra 4.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Palestra 4.jpg" alt="">
@@ -784,7 +787,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="/Assets/Palestra 3.jpg" alt="">
+                                        <img class="img" src="Assets/Palestra 3.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Palestra 3.jpg" alt="">
@@ -819,11 +822,8 @@
                                     </div>
                                 </div>
                             </div>
-
-                        </div>
+                        </div>     
                     </div>
-
-
                 </div>
             </div>
         </section>
@@ -837,18 +837,18 @@
 
                     <div class="courses-content">
 
-                        <div class="title">
+                        <div data-aos="zoom-in" class="title">
                             <h1>Minicursos</h1>
                         </div>
 
 
 
 
-                        <div class="swiper">
+                        <div data-aos="zoom-in" class="swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/Minicurso 1.jpg" alt="">
+                                        <img class="img" src="Assets/Minicurso 1.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 1.jpg" alt="">
@@ -867,7 +867,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/Minicurso 2.jpg" alt="">
+                                        <img class="img" src="Assets/Minicurso 2.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 2.jpg" alt="">
@@ -886,7 +886,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/Minicurso 10.jpg" alt="">
+                                        <img class="img" src="Assets/Minicurso 10.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 10.jpg" alt="">
@@ -906,7 +906,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/Minicurso 7.jpg" alt="">
+                                        <img class="img" src="Assets/Minicurso 7.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 7.jpg" alt="">
@@ -925,7 +925,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/Minicurso 6.jpg" alt="">
+                                        <img class="img" src="Assets/Minicurso 6.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 6.jpg" alt="">
@@ -944,7 +944,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/Minicurso 5.jpg" alt="">
+                                        <img class="img" src="Assets/Minicurso 5.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 5.jpg" alt="">
@@ -962,7 +962,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/Minicurso 11.jpg" alt="">
+                                        <img class="img" src="Assets/Minicurso 11.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 11.jpg" alt="">
@@ -982,7 +982,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/Minicurso 8.jpg" alt="">
+                                        <img class="img" src="Assets/Minicurso 8.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 8.jpg" alt="">
@@ -1002,7 +1002,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/Minicurso 13.jpg" alt="">
+                                        <img class="img" src="Assets/Minicurso 13.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 13.jpg" alt="">
@@ -1022,7 +1022,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/Minicurso 3.jpg" alt="">
+                                        <img class="img" src="Assets/Minicurso 3.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 3.jpg" alt="">
@@ -1039,7 +1039,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/minicurso 4.jpg" alt="">
+                                        <img class="img" src="Assets/minicurso 4.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 4.jpg" alt="">
@@ -1058,7 +1058,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/Minicurso 9.jpg" alt="">
+                                        <img class="img" src="Assets/Minicurso 9.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 9.jpg" alt="">
@@ -1078,7 +1078,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="carrossel">
-                                        <img class="img" src="../Assets/Minicurso 12.jpg" alt="">
+                                        <img class="img" src="Assets/Minicurso 12.jpg" alt="">
                                         <div class="text-content">
                                             <h2 class="data">
                                                 <div class="Perfil-course"><img src="Assets/Minicurso 12.jpg" alt="">
@@ -1109,33 +1109,26 @@
             <div class="container">
                 <div class="Round-table">
                     <div class="Round-table-content">
-                        <div class="title">
+                        <div data-aos="zoom-in"class="title">
                             <h1>Mesa Redonda</h1>
                         </div>
 
                         <div class="Round-table-imgs">
 
-                            <div class="Round-table-img">
+                            <div data-aos="zoom-in-down"  class="Round-table-img">
                                 <img src="Assets/Mesa 1.jpg" alt="">
-                                <p>Profa. Dra. Judite Scherer Wenzel (UFFS/PPGEC)
-                                </p>
-                            </div>
-
-                            <div class="Round-table-img">
-                                <img src="Assets/Mesa 2.jpg" alt="">
                                 <p>Profa. Dra. Paula Vanessa Bervian (UFFS/PPGEC)</p>
                             </div>
-
-
-                            <div class="Round-table-img">
+                            <div data-aos="zoom-in-down"  class="Round-table-img">
+                                <img src="Assets/Mesa 2.jpg" alt="">
+                                <p>Profa. Dra. Judite Scherer Wenzel (UFFS/PPGEC)</p>
+                            </div>
+                            <div data-aos="zoom-in-down"  class="Round-table-img">
                                 <img src="Assets/Mesa 3.jpg" alt="">
                                 <p>Prof. Dr. Dioni Pastorio (UFRGS/UFFS/PPGEC)</p>
                             </div>
-
-
                         </div>
-
-                        <div class="Round-table-description">
+                        <div data-aos="zoom-in" class="Round-table-description">
                             <p id="Round-table-description-title">Um diálogo entre TPACK e as TDIC como Instrumentos
                                 Culturais na Formação de Professores de Ciências</p>
                             <p>14h00min às 15h30min</p>
@@ -1151,14 +1144,14 @@
             <div class="container">
                 <div class="work-container">
                     <div class="work-content">
-                        <h2>Submissão de trabalhos</h2>
+                        <h2 data-aos="zoom-in" >Submissão de trabalhos</h2>
                         <div class="line-up">
-                            <div class="work-content-p">
+                            <div data-aos="zoom-in" class="work-content-p">
                                 <p>Submeta aqui seu trabalho para o IV Seminário Internacional de Tecnologia de Ensino -
                                     SEMITE</p>
                                 <p>Data limite de envio até 31 de outubro de 2023</p>
                             </div>
-                            <div class="work-conttent-button">
+                            <div data-aos="zoom-in" class="work-conttent-button">
                                 <a href="https://www.even3.com.br/seminario-internacional-de-tecnologia-e-ensino-semite-394344/">Submeter</a>
                                 <span>*Sujeito à análise</span>
                             </div>
@@ -1201,12 +1194,12 @@
     <footer class=footer>
         <div class=Contact>
             <div class=logo-footer>
-                <h2>SEMITE</h2>
-                <div class="footer-apoios">
+                <h2 data-aos="zoom-in" >SEMITE</h2>
+                <div data-aos="zoom-in" class="footer-apoios">
                     <img src="Assets/AltoTech.png" alt="">
                 </div>
             </div>
-            <div class=map-website>
+            <div data-aos="zoom-in" class=map-website>
                 <h2 class=map-title>
                     Mapa do Site
                 </h2>
@@ -1218,7 +1211,7 @@
                     <li><a href=#work-submission>Trabalho</a></li>
                 </ul>
             </div>
-            <div class=social-media>
+            <div data-aos="zoom-in" class=social-media>
                 <h2 class=map-title>
                     Contatos e redes sociais
                 </h2>
@@ -1237,14 +1230,17 @@
             </div>
         </div>
     </footer>
-    <script src="/js/Index.js"></script>
+    <script src="js/Index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="Js/courses.js"></script>
-    <script src="/Js/Header.js"></script>
-    <script src="/Js/Events.js"></script>
-    <script src="/Js/Patrocinadores.js"></script>
+    <script src="Js/Header.js"></script>
+    <script src="Js/Events.js"></script>
+    <script src="Js/Patrocinadores.js"></script>
     <script src="https://kit.fontawesome.com/d63b95226d.js" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
