@@ -4,9 +4,13 @@ document.addEventListener('DOMContentLoaded', function () {
         loop: true,
         slidesPerView: 2.5,
         keyboard: true,
-        speed: 1500, 
+        speed: 1500,
         loopAdditionalSlides: 1, 
-        loopPreventsSlide: false, 
+        loopPreventsSlide: false,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
         autoplay: {
             delay: 10000, 
             disableOnInteraction: false,
