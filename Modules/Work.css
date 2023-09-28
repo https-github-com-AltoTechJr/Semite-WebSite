@@ -43,6 +43,10 @@
 
 }
 
+.btn-trabalho-span{
+    margin-top: 5px;
+}
+
 .line-up {
     display: flex;
     width: 100%;
