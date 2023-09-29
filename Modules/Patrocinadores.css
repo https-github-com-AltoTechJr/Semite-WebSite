@@ -24,7 +24,7 @@
 
 }
 
-.logos{
+.logos {
     overflow: hidden
 }
 
@@ -32,8 +32,7 @@
 
 
 .logos:after,
-.logos:before
-{
+.logos:before {
     content: "";
     position: absolute;
     top: 0;
@@ -144,10 +143,6 @@
         width: 90px;
         height: 90px;
         margin: 0 40px
-    }
-
-    .span-logos {
-        height: 28vh
     }
 }
 

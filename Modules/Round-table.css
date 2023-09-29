@@ -8,35 +8,36 @@
 
 }
 
-.Round-table-content{
+.Round-table-content {
     width: 100%;
     height: 90%;
     border-radius: 20px;
-    background: var(--background2);    
+    background: var(--background2);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.Round-table-imgs{
+.Round-table-imgs {
     width: 100%;
     height: 40%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.Round-table-img{
+.Round-table-img {
     width: 30%;
     height: 100%;
 }
 
-.Round-table-img img{
+.Round-table-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
 }
-.Round-table-img p{
+
+.Round-table-img p {
     color: #fff;
     display: flex;
     font-size: 14px;
@@ -56,30 +57,27 @@
     flex-direction: column;
 }
 
-#Round-table-description-title{
+#Round-table-description-title {
     font-weight: 600;
     text-align: justify;
     font-size: 18px;
 }
 
 
-@media screen and (max-width: 1400px) {
-      
-}
+@media screen and (max-width: 1400px) {}
 
-@media screen and (max-width: 1200px) {
-    
-}
+@media screen and (max-width: 1200px) {}
 
 @media screen and (max-width: 992px) {
     .Round-table-img p {
         font-size: 10px;
     }
+
     #Round-table-description-title {
         font-size: 12px;
     }
 
-    .Round-table-description p{
+    .Round-table-description p {
         font-size: 12px;
     }
 }
@@ -89,9 +87,7 @@
     .Round-table-img p {
         font-size: 8px;
     }
-    
+
 }
 
-@media screen and (max-width: 576px) {
-    
-}
+@media screen and (max-width: 576px) {}

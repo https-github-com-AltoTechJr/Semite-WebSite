@@ -1,7 +1,8 @@
-.Inscrição{
+.Inscrição {
 
     background: #f1f1f1;
 }
+
 .Inscrição-container {
 
     display: flex;
@@ -24,8 +25,8 @@
 
     display: flex;
     width: 100%;
-    height: 30%;
-    justify-content: space-evenly;
+    height: 80vh;
+    justify-content: center;
     align-items: center;
 }
 
@@ -50,6 +51,7 @@
 .text-data {
 
     width: 95%;
+    padding: 20px;
     list-style: none;
 }
 
@@ -59,10 +61,25 @@
     font-size: 24px;
 }
 
+#Text-title {
+
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+}
+
+#Text-info {
+
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+
+}
+
 .Text-2 {
 
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     color: #757575;
 }
 
@@ -117,22 +134,25 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    
+
 }
 
-#register-btn button {
+#register-btn #button-Inscrever-se {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     background: var(--background1);
-    border: none;
-    color: #fff;
+    color: white;
     font-size: 24px;
     font-weight: 800;
     border-radius: 20px;
-    cursor: pointer;
     width: 250px;
     height: 60px;
     margin: 0 10px;
 }
-#register-btn a {
+
+#register-btn #button-cancelar {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,93 +168,107 @@
 }
 
 
-@media screen and (max-width: 1400px) {
-    
-}
+@media screen and (max-width: 1400px) {}
 
 @media screen and (max-width: 768px) {
-    
+
     #Text-1 {
         font-weight: 600;
         font-size: 16px;
     }
+
     .Text-2 {
         font-weight: 600;
         font-size: 14px;
         color: #757575;
     }
-    #title-register{
+
+    #title-register {
         font-size: 16px;
     }
+
     #title-Inscrição {
-        font-size: 32px;       
+        font-size: 32px;
     }
 
-    .form-register input {
-        height: 40px; 
-        font-size: 10px;
-           
-    }
-
-    #register-btn a {
+    #register-btn #button-cancelar {
         font-size: 20px;
         width: 200px;
         height: 50px;
-        
+
     }
-    #register-btn button {
+
+    #register-btn #button-Inscrever-se {
         font-size: 20px;
         width: 200px;
         height: 50px;
-        
+
     }
+
     .Inscrição-Event-data::before {
-    
+
         width: 6px;
-        
+
+    }
+
+    #Text-title {
+
+        font-size: 16px;
+    }
+
+    #Text-info {
+
+        font-size: 14px;
+
+
     }
 }
 
 @media screen and (max-width: 576px) {
-    
+
     #Text-1 {
         font-weight: 600;
         font-size: 14px;
     }
+
     .Text-2 {
         font-weight: 600;
         font-size: 12px;
         color: #757575;
     }
-    #title-register{
+
+    #title-register {
         font-size: 14px;
     }
+
     #title-Inscrição {
-        font-size: 28px;       
+        font-size: 24px;
     }
 
     .form-register input {
-        height: 35px; 
+        height: 35px;
         font-size: 8px;
         margin: 10px 0;
     }
 
-    #register-btn a {
+    #register-btn #button-cancelar {
         font-size: 14px;
         width: 180px;
         height: 45px;
-        
+
     }
-    #register-btn button {
+
+    #register-btn #button-Inscrever-se {
         font-size: 14px;
         width: 180px;
         height: 45px;
-        
+
     }
+
     .Inscrição-Event-data::before {
-    
+
         width: 4px;
-        
+
     }
 
     .register-box-email {
@@ -248,7 +282,19 @@
     .register-emails {
         display: flex;
         flex-direction: column;
-        
+
+    }
+
+    #Text-title {
+
+        font-size: 14px;
+    }
+
+    #Text-info {
+
+        font-size: 12px;
+
+
     }
 
 }

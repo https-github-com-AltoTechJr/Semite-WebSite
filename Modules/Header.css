@@ -1,4 +1,4 @@
-#container-header{
+#container-header {
 
     position: absolute;
     transition: height 0.5s ease;
@@ -9,21 +9,23 @@
 
 }
 
-#Header-home{
+#Header-home {
     width: 100%;
 }
 
-.Header-nav a{
+.Header-nav a {
     display: flex;
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
-.Header-nav a i{
+
+.Header-nav a i {
 
     margin: 0 5px;
 }
-.Header-nav a p{
+
+.Header-nav a p {
 
     margin: 0 5px;
 }
@@ -38,15 +40,17 @@
 
 
 
-.nav-item2 i{
+.nav-item2 i {
 
     font-size: 20px;
 }
-.nav-item i{
-    
+
+.nav-item i {
+
     font-size: 20px;
 }
-.webmenu{
+
+.webmenu {
 
     display: flex;
     list-style: none;
@@ -54,25 +58,26 @@
     margin-right: 2%;
 }
 
-.webmenu li{ 
+.webmenu li {
 
     height: 12vh;
     display: flex;
     align-items: center;
-    
+
 }
 
-.Nav-Itens{
+.Nav-Itens {
     display: none;
     transition: .5s;
 }
 
-.mobile-menu{
-    
+.mobile-menu {
+
     list-style: none;
 
 }
-#Header-menu-mobile{
+
+#Header-menu-mobile {
 
     display: none;
     font-size: 30px;
@@ -80,7 +85,7 @@
 
 }
 
-.logo-container{
+.logo-container {
     display: flex;
     font-weight: 700;
     align-items: center;
@@ -88,12 +93,13 @@
     margin-left: 2%;
 }
 
-#Header-menu-mobile i:hover{
+#Header-menu-mobile i:hover {
 
     color: #3aaaeb;
 
 }
-.nav-item2{
+
+.nav-item2 {
     background: linear-gradient(to right, #1a78c5 0%, #0e87ce 100%);
     background-size: 0% 2px;
     background-repeat: no-repeat;
@@ -107,16 +113,17 @@
 }
 
 .nav-item2.active {
-    background-size: 100% 2px; 
+    background-size: 100% 2px;
 }
+
 .nav-item2:hover {
-    background-size: 100% 2px; 
+    background-size: 100% 2px;
 }
 
 
 .nav-item2 {
     margin: 0 15px;
-    
+
 }
 
 
@@ -129,10 +136,10 @@
 
 .nav-item {
     padding: 15px;
-    
+
 }
 
-#Button-login{
+#Button-login {
 
     background: #f2f2f6;
     padding: 12px 15px;
@@ -150,89 +157,85 @@
     background: #3aaaeb;
 }
 
-#mobile-button-login{
+#mobile-button-login {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-@media screen and (max-width: 1400px) {
-    
-}
+@media screen and (max-width: 1400px) {}
 
-@media screen and (max-width: 1200px) {
-   
-}
+@media screen and (max-width: 1200px) {}
 
 
 
 @media screen and (max-width: 1070px) {
-    
-    
-    .Nav-Itens{
+
+
+    .Nav-Itens {
 
         width: 100%;
         height: 100%;
-        
+
 
     }
 
     .nav-item2 i {
         font-size: 22px;
     }
+
     .Header-nav a {
         font-size: 16px;
     }
+
     .logo-container {
-       
+
         font-size: 20px;
-        
+
     }
 
-    .mobile-menu{
-    width: 100%;
-    height: 60%;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    .mobile-menu {
+        width: 100%;
+        height: 60%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
     }
 
     .webmenu {
-    
+
         display: none;
     }
 
-    #name-logo-mobile{
-        
-        width: 100%;    
+    #name-logo-mobile {
+
+        width: 100%;
         margin-top: 20%;
         justify-content: center;
         color: #FFFFFF33;
         display: none;
-        
+
     }
 
-    #text-mobile{
+    #text-mobile {
 
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
-    #Header-menu-mobile{
+    #Header-menu-mobile {
         display: initial;
     }
 
-    .nav-item2{
+    .nav-item2 {
 
         background-size: 0% 0px;
     }
 
-    
-}
-
-@media screen and (max-width: 576px) {
 
 }
+
+@media screen and (max-width: 576px) {}

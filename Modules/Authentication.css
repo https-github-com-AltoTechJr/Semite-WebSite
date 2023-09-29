@@ -61,7 +61,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    
+
 }
 
 .wrapper-authentication {
@@ -124,7 +124,7 @@
     width: 30%;
     border-radius: 1vw;
     border: none;
-    background-color:#081a83;
+    background-color: #081a83;
     color: #FFF;
     font-size: 1.5vw;
     font-weight: 600;
@@ -154,7 +154,7 @@
     margin: 0 1%;
 }
 
-h3{
+h3 {
     color: white;
 }
 
@@ -437,7 +437,8 @@ input::placeholder {
     margin-left: 2%;
 }
 
-.accomplishment .accomplishment-right .accomplishment-right-img img, .accomplishment .accomplishment-left .accomplishment-left-img img:first-child {
+.accomplishment .accomplishment-right .accomplishment-right-img img,
+.accomplishment .accomplishment-left .accomplishment-left-img img:first-child {
     padding: 0 4%;
     max-height: 3vw;
 }
@@ -460,7 +461,7 @@ input::placeholder {
         flex-direction: column-reverse;
         display: flex;
     }
-    
+
     .wrapper-authentication {
         display: flex;
         align-items: center;
@@ -469,50 +470,50 @@ input::placeholder {
         border-radius: 30px;
         height: auto;
     }
-    
+
     .authentication-box {
         flex: 1;
     }
-    
+
     .authentication-media-options {
         flex: 0;
     }
-    
+
     .link-box {
         flex: 0;
     }
-    
+
     .authentication-box .authentication-title h1 {
         font-size: 4vw;
         margin: 0%;
     }
-    
+
     .authentication-box .authentication-btn {
-        width: 40%; 
-        font-size: 2.5vw; 
-        height: 5vw; 
+        width: 40%;
+        font-size: 2.5vw;
+        height: 5vw;
     }
-    
+
     .authentication-borders {
-        font-size: 2vw; 
+        font-size: 2vw;
         margin: 2% 0;
     }
-    
+
     .authentication-borders {
-        font-size: 1.5vw; 
+        font-size: 1.5vw;
     }
-    
+
     .authentication-borders .border-left,
     .border-right {
         width: 20%;
     }
-    
+
     .authentication-media-options a {
         font-size: 1.5vw;
-        width: 40%; 
+        width: 40%;
         height: 3.5vw;
     }
-    
+
     .register-box {
         width: 100%;
         font-size: 8px;
@@ -520,84 +521,85 @@ input::placeholder {
         display: flex;
         flex-direction: column;
     }
-    
+
     .info-text-password {
-        font-size: 1.5vw; 
+        font-size: 1.5vw;
         position: relative;
         margin-top: 3px;
     }
-    
-    .link-box, .link-box a {
+
+    .link-box,
+    .link-box a {
         font-size: 1vw;
     }
-    
+
     .authentication-media-options a:hover {
         background-color: #E0E0E0;
     }
-    
+
     .authentication-media-options img {
         height: 50%;
     }
-    
+
     .two-column-list>div {
         width: 80%;
         padding: 0px;
         margin-bottom: 10px;
     }
-    
+
     .two-column-list input {
         height: 5%;
     }
-    
+
     .two-column-list {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 0;
     }
-    
+
     .authenttication-input:nth-child(2) {
         order: -4;
     }
-    
+
     .authenttication-input:nth-child(4) {
         order: -3;
     }
-    
+
     .authentication-input-box select {
         margin-bottom: 0px;
         margin: 0px;
         padding: 0 5px;
         font-size: 1.5vw;
-        height: 4vw; 
+        height: 4vw;
     }
-    
+
     .authentication-input-box input {
-        font-size: 1.5vw; 
-        height: 4vw; 
+        font-size: 1.5vw;
+        height: 4vw;
     }
-    
+
     .custom-file-input {
         margin: 0px;
-        height: 4vw; 
+        height: 4vw;
     }
-    
+
     .info-text-file {
         font-size: 1vw;
         margin-top: 2%;
         margin-left: 2%;
         text-align: left;
     }
-    
+
     .wrapper-Details {
         width: 50%;
         display: flex;
     }
-    
+
     .accomplishment {
         margin: 0;
     }
-    
+
     .authenttication-input.authenttication-input .file-text-input {
         font-size: 1.5vw;
         margin: 0 10px;
@@ -610,33 +612,33 @@ input::placeholder {
         justify-content: center;
         align-items: center;
         align-content: center;
-        height: 70%; 
+        height: 70%;
     }
-    
+
     .Details-text h2 {
         font-weight: 600;
         line-height: 1.2;
-        font-size: 2vw; 
+        font-size: 2vw;
     }
-    
+
     .Details-text h2 span {
         font-weight: 200;
         font-size: 1.2vw;
         letter-spacing: 3px;
     }
-    
+
     .Details-text .flag img {
-        height: 2.5vw; 
-        margin-top: 2%; 
+        height: 2.5vw;
+        margin-top: 2%;
     }
-    
+
     .Details-text p {
-        font-size: 1vw; 
+        font-size: 1vw;
         line-height: 28px;
         letter-spacing: 3px;
     }
 
-    
+
     .accomplishment {
         background: #D9D9D994 58%;
         text-align: start;
@@ -645,23 +647,24 @@ input::placeholder {
         display: flex;
         font-weight: 200;
         font-size: 1.2vw;
-        margin-bottom: 1%; 
+        margin-bottom: 1%;
     }
-    
+
     .accomplishment .accomplishment-right {
-        width: 70%; 
+        width: 70%;
         margin-left: 2%;
     }
-    
-    .accomplishment .accomplishment-right .accomplishment-right-img img, .accomplishment .accomplishment-left .accomplishment-left-img img:first-child {
-        padding: 0 3%; 
-        max-height: 2.5vw; 
+
+    .accomplishment .accomplishment-right .accomplishment-right-img img,
+    .accomplishment .accomplishment-left .accomplishment-left-img img:first-child {
+        padding: 0 3%;
+        max-height: 2.5vw;
     }
-    
+
     .accomplishment .accomplishment-left .accomplishment-left-img img {
-        max-height: 2.5vw; 
+        max-height: 2.5vw;
     }
-    
+
     .accomplishment .accomplishment-left {
         width: 30%;
     }
@@ -672,7 +675,7 @@ input::placeholder {
     }
 
 
-    
+
 }
 
 
@@ -820,8 +823,8 @@ input::placeholder {
     }
 
     .wrapper-Details {
-      width: 50%;
-      display: flex;
+        width: 50%;
+        display: flex;
     }
 
 
@@ -830,70 +833,70 @@ input::placeholder {
         font-size: 2vw;
         margin: 0 10px;
     }
-    
-        .Details-text {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            height: 90%;
-        }
-        
-        .Details-text h2 {
-            font-weight: 600;
-            line-height: 1.2;
-            font-size: 2.5vw;
-        }
-        
-        .Details-text h2 span {
-            font-weight: 200;
-            font-size: 1.5vw;
-            letter-spacing: 3px;
-        }
-        
-        .Details-text .flag img {
-            height: 3vw;
-            margin-top: 2%;
-        }
-        
-        .Details-text p {
-            font-size: 1vw;
-            line-height: 28px;
-            letter-spacing: 3px;
-        }
-        
-        .accomplishment {
-            background: #D9D9D994 58%;
-            text-align: start;
-            width: 90%;
-            border-radius: 0.7vw;
-            display: flex;
-            font-weight: 200;
-            font-size: 1.2vw;
-           margin: 0;
-        }
-        
-        .accomplishment .accomplishment-right {
-            width: 75%;
-            margin-left: 2%;
-        }
-        
-        
-        
-        .accomplishment .accomplishment-right .accomplishment-right-img img, .accomplishment .accomplishment-left .accomplishment-left-img img:first-child {
-            padding: 0 4%;
-            max-height: 3vw;
-        }
-        
-        .accomplishment .accomplishment-left .accomplishment-left-img img {
-            max-height: 3vw;
-        }
-        
-        .accomplishment .accomplishment-left {
-            width: 25%;
-        }
-    
-}
 
+    .Details-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 90%;
+    }
+
+    .Details-text h2 {
+        font-weight: 600;
+        line-height: 1.2;
+        font-size: 2.5vw;
+    }
+
+    .Details-text h2 span {
+        font-weight: 200;
+        font-size: 1.5vw;
+        letter-spacing: 3px;
+    }
+
+    .Details-text .flag img {
+        height: 3vw;
+        margin-top: 2%;
+    }
+
+    .Details-text p {
+        font-size: 1vw;
+        line-height: 28px;
+        letter-spacing: 3px;
+    }
+
+    .accomplishment {
+        background: #D9D9D994 58%;
+        text-align: start;
+        width: 90%;
+        border-radius: 0.7vw;
+        display: flex;
+        font-weight: 200;
+        font-size: 1.2vw;
+        margin: 0;
+    }
+
+    .accomplishment .accomplishment-right {
+        width: 75%;
+        margin-left: 2%;
+    }
+
+
+
+    .accomplishment .accomplishment-right .accomplishment-right-img img,
+    .accomplishment .accomplishment-left .accomplishment-left-img img:first-child {
+        padding: 0 4%;
+        max-height: 3vw;
+    }
+
+    .accomplishment .accomplishment-left .accomplishment-left-img img {
+        max-height: 3vw;
+    }
+
+    .accomplishment .accomplishment-left {
+        width: 25%;
+    }
+
+}

@@ -16,7 +16,7 @@
     width: 100%;
     height: 85%;
     border-radius: 20px;
-    background: var(--background2);    
+    background: var(--background2);
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -24,21 +24,22 @@
 }
 
 
-.welcome-content h1{
+.welcome-content h1 {
     color: #F1F1F1;
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
-    line-height: 140%; /* 100px */
-    display: flex; 
+    line-height: 140%;
+    /* 100px */
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 2%;
     padding-bottom: 1rem;
 }
 
-.text-welcome{
-    
+.text-welcome {
+
     width: 85%;
     align-self: center;
     overflow: auto;
@@ -49,7 +50,7 @@
     font-size: 65px;
 }
 
-.welcome-content p{
+.welcome-content p {
     color: #FFF;
     font-size: 21px;
     font-style: normal;
@@ -59,83 +60,92 @@
     text-align: center;
 }
 
-#list-welcome li{
+#list-welcome li {
     color: white;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-p.title-welcome{
+p.title-welcome {
     font-weight: 700;
 }
 
 
 
 @media screen and (max-width: 1400px) {
-    .welcome-content p{
+    .welcome-content p {
         padding: 8px;
         font-size: 20px
     }
 
-    #list-welcome li{
+    #list-welcome li {
         font-size: 20px
     }
-    
+
 }
 
 @media screen and (max-width: 1200px) {
-    .welcome-content p{
+    .welcome-content p {
         padding: 8px;
         font-size: 18px;
     }
-    #list-welcome li{
+
+    #list-welcome li {
         font-size: 18px
     }
 }
 
 @media screen and (max-width: 992px) {
-    .welcome-content p{
+    .welcome-content p {
         font-size: 16px;
     }
-    #list-welcome li{
+
+    #list-welcome li {
         font-size: 16px
     }
 }
 
 @media screen and (max-width: 768px) {
-    .welcome-content h1{
+    .welcome-content h1 {
         font-size: 40px;
     }
+
     .welcome-content span {
         font-size: 48px;
     }
-    .welcome-content{
+
+    .welcome-content {
         margin: 0;
         padding: 2rem 1rem;
         width: 100%;
     }
-    .welcome-content p{
+
+    .welcome-content p {
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .welcome-content h1{
+    .welcome-content h1 {
         font-size: 38px;
     }
+
     .welcome-content span {
         font-size: 48px;
     }
-    .welcome-content{
+
+    .welcome-content {
         margin: 0;
         padding: 2rem 1rem;
         width: 100%;
     }
-    .welcome-content p{
+
+    .welcome-content p {
         font-size: 14px;
     }
-    #list-welcome li{
+
+    #list-welcome li {
         font-size: 14px
     }
 }
