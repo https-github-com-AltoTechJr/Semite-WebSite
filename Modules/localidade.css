@@ -32,3 +32,23 @@ iframe{
         width: 350px;
     }
 }
+
+@media screen and (max-width: 576px) {
+    iframe{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    iframe{
+        width: 250px;
+       
+    }
+}
+
+@media screen and (max-width: 576px) {
+    iframe{
+        width: 150px;
+       
+    }
+}

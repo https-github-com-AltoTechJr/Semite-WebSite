@@ -139,7 +139,11 @@
     }
 }
 
-@media screen and (max-width:765px) {
+@media screen and (max-width:769px) {
+
+    footer{
+        margin-top: 300px;
+    }
     .map-title {
         font-size: 1.1em
     }
@@ -154,6 +158,8 @@
     .logo-footer img{
         scale: 0.8;
     }
+
+
 }
 
 @media screen and (max-width:576px) {
