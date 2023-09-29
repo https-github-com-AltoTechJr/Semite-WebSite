@@ -103,7 +103,7 @@
     flex-direction: column
 }
 
-.footer-apoios{
+.footer-apoios {
 
     margin-top: 5%;
     margin-left: 16%;
@@ -118,9 +118,9 @@
     }
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1200px) {
 
-    .logo-footer img{
+    .logo-footer img {
         scale: 1.0;
     }
 
@@ -134,16 +134,18 @@
     .Contact a {
         font-size: .9em
     }
-    .logo-footer img{
+
+    .logo-footer img {
         scale: 0.9;
     }
 }
 
 @media screen and (max-width:769px) {
 
-    footer{
+    footer {
         margin-top: 300px;
     }
+
     .map-title {
         font-size: 1.1em
     }
@@ -155,7 +157,8 @@
     .copyrightfooter {
         font-size: .7em
     }
-    .logo-footer img{
+
+    .logo-footer img {
         scale: 0.8;
     }
 
@@ -216,7 +219,7 @@
     }
 
     .footer-apoios {
-        margin-top: 0%; 
+        margin-top: 0%;
         margin-left: 0%;
     }
 }

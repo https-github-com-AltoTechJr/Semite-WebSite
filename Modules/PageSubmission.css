@@ -1,11 +1,13 @@
 body {
   background: #fff;
 }
+
 .update-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .header {
   padding: 1rem 0 1rem 3rem;
   background: #14302f;
@@ -17,8 +19,10 @@ body {
   font-size: 28.619px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 40.067px */
+  line-height: 140%;
+  /* 40.067px */
 }
+
 /* main */
 
 .container-title {
@@ -33,9 +37,11 @@ body {
   flex-direction: column;
   padding-top: 8rem;
 }
+
 .logo-container-x {
   display: none;
 }
+
 .container-p {
   display: flex;
   flex-direction: column;
@@ -57,20 +63,25 @@ body {
   margin-left: -1rem;
   margin-top: -19px;
 }
+
 .container-p :nth-child(2) {
   color: #000;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 140%; /* 33.6px */
+  line-height: 140%;
+  /* 33.6px */
 }
+
 .container-p :nth-child(3) {
   color: #757575;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 140%; /* 28px */
+  line-height: 140%;
+  /* 28px */
 }
+
 /* DADOS DOS PARTICIPANTE */
 
 .container-data {
@@ -79,6 +90,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
 .data {
   padding: 64px 0;
   width: 90%;
@@ -86,9 +98,11 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .data h1 {
   text-align: center;
 }
+
 .data-input {
   padding: 12px;
   width: 475px;
@@ -97,12 +111,14 @@ body {
   background: #fff;
   color: #c1c1c1;
 }
+
 .data-cont {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
 }
+
 .data-cont form {
   display: flex;
   gap: 8px;
@@ -110,6 +126,7 @@ body {
   align-items: center;
   padding-top: 2rem;
 }
+
 .data-form {
   display: flex;
   gap: 8px;
@@ -132,6 +149,7 @@ body {
   border: solid 1px #c1c1c1;
   border-radius: 8px;
 }
+
 .update {
   width: 100%;
   text-align: center;
@@ -146,10 +164,12 @@ body {
   align-items: center;
   gap: 3rem;
 }
+
 .update-cont {
   display: flex;
   flex-direction: column;
 }
+
 .agroup {
   display: flex;
   flex-direction: column;
@@ -160,13 +180,16 @@ body {
 .agroup p {
   font-size: 14px;
 }
+
 .agroup-file {
   color: #c1c1c1;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 19.6px */
+  line-height: 140%;
+  /* 19.6px */
 }
+
 .upload {
   border: solid 1px #d9d9d9;
   padding: 8px;
@@ -196,6 +219,7 @@ body {
   height: 60px;
   margin: 0 10px;
 }
+
 #register-btn a {
   display: flex;
   align-items: center;
@@ -222,27 +246,33 @@ body {
     height: 100px;
   }
 }
+
 @media screen and (max-width: 1200px) {
   .update-agroup {
     flex-direction: column;
     align-items: start;
   }
+
   .container-p span {
     height: 132px;
   }
 }
+
 @media screen and (max-width: 992px) {
   .update-agroup {
     flex-direction: column;
     align-items: start;
   }
+
   .logo-container,
   .container-title h1 {
     display: none;
   }
+
   .logo-container-x {
     display: block;
   }
+
   .container-p span {
     height: 132px;
   }
@@ -254,25 +284,31 @@ body {
     margin: 0;
     width: 90%;
   }
+
   .container-data {
     flex-direction: column;
   }
+
   .data {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .data-cont {
     flex-direction: column;
   }
+
   .data-form {
     flex-direction: column;
   }
+
   .update-agroup {
     flex-direction: column;
     gap: 16px;
   }
-  .container-title{
+
+  .container-title {
     padding-left: 1rem;
   }
 }
@@ -284,15 +320,18 @@ body {
     flex-wrap: wrap;
     align-content: center;
   }
+
   .update-agroup {
     display: flex;
     flex-direction: column;
   }
+
   .data {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
+
   .data-block {
     display: flex;
     flex-direction: column;
@@ -308,9 +347,11 @@ body {
     gap: 0.5rem;
     margin-top: 1rem;
   }
+
   .container-title {
     padding-left: 1rem;
   }
+
   .container-p span {
     height: 195px;
   }
@@ -329,24 +370,29 @@ body {
     width: 80%;
     align-items: center;
   }
+
   .data-input {
     display: flex;
     align-items: center;
     width: 100%;
   }
+
   .descricion {
     width: 285px;
   }
+
   #register-btn button {
     font-size: 16px;
     width: 150px;
     height: 40px;
   }
+
   #register-btn a {
     font-size: 16px;
     width: 150px;
     height: 40px;
   }
+
   .container-p span {
     height: 170px;
   }
@@ -357,13 +403,16 @@ body {
     padding: 12px;
     width: 180px;
   }
+
   .input-box {
     display: flex;
     align-items: end;
   }
+
   .logo-container-x {
     font-size: px;
   }
+
   .container-p span {
     height: 260px;
   }

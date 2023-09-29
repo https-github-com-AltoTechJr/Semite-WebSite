@@ -24,7 +24,7 @@
 
 }
 
-.logos{
+.logos {
     overflow: hidden
 }
 
@@ -32,8 +32,7 @@
 
 
 .logos:after,
-.logos:before
-{
+.logos:before {
     content: "";
     position: absolute;
     top: 0;

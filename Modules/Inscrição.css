@@ -1,7 +1,8 @@
-.Inscrição{
+.Inscrição {
 
     background: #f1f1f1;
 }
+
 .Inscrição-container {
 
     display: flex;
@@ -60,14 +61,14 @@
     font-size: 24px;
 }
 
-#Text-title{
+#Text-title {
 
     font-weight: 500;
     font-size: 22px;
     display: flex;
 }
 
-#Text-info{
+#Text-info {
 
     font-weight: 400;
     font-size: 16px;
@@ -133,7 +134,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    
+
 }
 
 #register-btn #button-Inscrever-se {
@@ -150,6 +151,7 @@
     height: 60px;
     margin: 0 10px;
 }
+
 #register-btn #button-cancelar {
     display: flex;
     align-items: center;
@@ -166,79 +168,85 @@
 }
 
 
-@media screen and (max-width: 1400px) {
-    
-}
+@media screen and (max-width: 1400px) {}
 
 @media screen and (max-width: 768px) {
-    
+
     #Text-1 {
         font-weight: 600;
         font-size: 16px;
     }
+
     .Text-2 {
         font-weight: 600;
         font-size: 14px;
         color: #757575;
     }
-    #title-register{
+
+    #title-register {
         font-size: 16px;
     }
+
     #title-Inscrição {
-        font-size: 32px;       
+        font-size: 32px;
     }
 
     #register-btn #button-cancelar {
         font-size: 20px;
         width: 200px;
         height: 50px;
-        
+
     }
+
     #register-btn #button-Inscrever-se {
         font-size: 20px;
         width: 200px;
         height: 50px;
-        
-    }
-    .Inscrição-Event-data::before {
-    
-        width: 6px;
-        
+
     }
 
-    #Text-title{
+    .Inscrição-Event-data::before {
+
+        width: 6px;
+
+    }
+
+    #Text-title {
 
         font-size: 16px;
     }
-    
-    #Text-info{
-    
+
+    #Text-info {
+
         font-size: 14px;
-        
-    
+
+
     }
 }
 
 @media screen and (max-width: 576px) {
-    
+
     #Text-1 {
         font-weight: 600;
         font-size: 14px;
     }
+
     .Text-2 {
         font-weight: 600;
         font-size: 12px;
         color: #757575;
     }
-    #title-register{
+
+    #title-register {
         font-size: 14px;
     }
+
     #title-Inscrição {
-        font-size: 24px;       
+        font-size: 24px;
     }
 
     .form-register input {
-        height: 35px; 
+        height: 35px;
         font-size: 8px;
         margin: 10px 0;
     }
@@ -247,18 +255,20 @@
         font-size: 14px;
         width: 180px;
         height: 45px;
-        
+
     }
+
     #register-btn #button-Inscrever-se {
         font-size: 14px;
         width: 180px;
         height: 45px;
-        
+
     }
+
     .Inscrição-Event-data::before {
-    
+
         width: 4px;
-        
+
     }
 
     .register-box-email {
@@ -272,19 +282,19 @@
     .register-emails {
         display: flex;
         flex-direction: column;
-        
+
     }
 
-    #Text-title{
+    #Text-title {
 
         font-size: 14px;
     }
-    
-    #Text-info{
-    
+
+    #Text-info {
+
         font-size: 12px;
-        
-    
+
+
     }
 
 }

@@ -59,7 +59,7 @@
 .img {
   width: 100%;
   height: 100%;
-  filter: blur(0); 
+  filter: blur(0);
   transition: filter 1s ease;
   object-fit: cover;
 }
@@ -132,13 +132,15 @@
 .text-info {
   opacity: 0;
 }
-.swiper-button-prev, 
-.swiper-button-next{
+
+.swiper-button-prev,
+.swiper-button-next {
   opacity: 0.3;
   transition: 0.3s;
-} 
-.swiper-button-prev:hover, 
-.swiper-button-next:hover{
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
   opacity: 1;
 }
 
@@ -165,24 +167,24 @@
 }
 
 
-.Perfil-course{
+.Perfil-course {
   width: 60px;
   height: 60px;
 }
 
-.Perfil-course img{
+.Perfil-course img {
   width: 100%;
   height: 100%;
   border-radius: 100%;
   object-fit: cover;
 }
 
-.data p{
+.data p {
   margin-left: 10px;
 }
 
 @media screen and (max-width: 1065px) {
-  .carrossel{
+  .carrossel {
     width: 300px;
   }
 }
@@ -190,46 +192,51 @@
 @media screen and (max-width: 992px) {
 
   .carrossel {
-      width: 300px;
+    width: 300px;
 
   }
 
   nav {
-      max-width: 960px;
+    max-width: 960px;
   }
 }
+
 @media screen and (max-width: 860px) {
-  .swiper{width: 100%;}
-  .carrossel{
+  .swiper {
+    width: 100%;
+  }
+
+  .carrossel {
     width: 270px;
   }
 }
+
 @media screen and (max-width: 699px) {
-  
-  .carrossel{
-      width: 360px;
-      height: 80%;
-      left: 20%;
+
+  .carrossel {
+    width: 360px;
+    height: 80%;
+    left: 20%;
   }
-  
-  .swiper-slide{
-      display: flex;
+
+  .swiper-slide {
+    display: flex;
   }
 
   .swiper-button-prev::after,
-  .swiper-button-next::after{
+  .swiper-button-next::after {
     display: none;
   }
-  
+
   .swiper-slide-prev .carrossel,
   .swiper-slide-next .carrossel {
-      transform: scale(0.8);
-      opacity: 0.3;
-      transition: 0.8s;
+    transform: scale(0.8);
+    opacity: 0.3;
+    transition: 0.8s;
   }
 
   nav {
-      max-width: 720px;
+    max-width: 720px;
   }
 }
 
@@ -237,15 +244,16 @@
 
   .title-text,
   .text-info {
-      font-size: 14px;
+    font-size: 14px;
   }
-  .btn a{
-    font-size:14px;
+
+  .btn a {
+    font-size: 14px;
     bottom: 20px;
   }
+
   .text-content {
     transform: translateY(65%);
-}
- 
-}
+  }
 
+}
