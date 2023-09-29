@@ -28,26 +28,26 @@ iframe {
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 676px) {
     iframe {
-        width: 350px;
+        width: 400px;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 475px) {
     iframe {
-        width: 350px;
+        width: 250px;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 390px) {
     iframe {
         width: 250px;
 
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 250px) {
     iframe {
         width: 150px;
 
