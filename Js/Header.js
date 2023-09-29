@@ -31,13 +31,13 @@ function updateActiveNavItem() {
         const isVisible = rect.top <= middleOfScreen && rect.bottom >= middleOfScreen;
 
         if (isVisible) {
-            
-            navItems2.forEach(navItem => navItem.classList.remove("active"));     
-            navItems2[index].classList.add("active");        
-            navItems.forEach(navItem => navItem.classList.remove("active"));        
+
+            navItems2.forEach(navItem => navItem.classList.remove("active"));
+            navItems2[index].classList.add("active");
+            navItems.forEach(navItem => navItem.classList.remove("active"));
             navItems[index].classList.add("active");
         } else {
-            
+
             navItems2[index].classList.remove("active");
             navItems[index].classList.remove("active");
         }
@@ -76,7 +76,7 @@ function fadeIn(element) {
     element.style.opacity = 0;
     element.style.display = 'block';
 
-    setTimeout(function() {
+    setTimeout(function () {
         element.style.opacity = 1;
     }, 300);
 }
@@ -85,7 +85,7 @@ function fadeIn(element) {
 function fadeOut(element) {
     element.style.opacity = 1;
 
-    setTimeout(function() {
+    setTimeout(function () {
         element.style.opacity = 0;
         element.style.display = 'none';
     }, 100); // Ajuste o tempo conforme necessário (300ms é o valor padrão para a transição)

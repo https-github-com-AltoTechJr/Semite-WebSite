@@ -16,15 +16,15 @@
 
 }
 
-#top-section-crono-title{
+#top-section-crono-title {
 
-display: flex;
-height: 10%;
-font-weight: 600;
-font-size: 32px;
-color: white;
-align-items: flex-end;
-justify-content: center;
+    display: flex;
+    height: 10%;
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+    align-items: flex-end;
+    justify-content: center;
 
 }
 
@@ -136,7 +136,7 @@ justify-content: center;
     animation: fadeIn 1s ease-in-out;
 }
 
-#Fuso-alert{
+#Fuso-alert {
 
     width: 98%;
     color: #FFFFFF;
@@ -171,57 +171,57 @@ justify-content: center;
 
     font-size: 22px;
     font-weight: 400;
-  
-  }
-  
-  .sub-local-text {
-  
+
+}
+
+.sub-local-text {
+
     font-size: 18px;
     font-weight: 100;
-  
-  }
 
-  .title-events{
+}
+
+.title-events {
     font-size: 28px;
     font-weight: bold;
     display: flex;
     justify-content: center;
-  }
+}
 
 
-  @media screen and (min-width: 1400px){
+@media screen and (min-width: 1400px) {
 
-    
-  
+
+
     .day-button {
-     
-      font-size: 2em;
-      
+
+        font-size: 2em;
+
     }
-  
+
     #top-section-crono-title2 {
-      font-size: 1.8em;
-  }
-    
-      
+        font-size: 1.8em;
+    }
+
+
 }
 
 
-  @media screen and (min-width: 1520px){
+@media screen and (min-width: 1520px) {
 
 
-  .day-button {
-   
-    font-size: 2.5em;
-    
-  }
+    .day-button {
 
-  #top-section-crono-title2 {
-    font-size: 2.5em;
+        font-size: 2.5em;
+
+    }
+
+    #top-section-crono-title2 {
+        font-size: 2.5em;
+    }
+
+
 }
-  
-    
-  }
 
 
 @media screen and (max-width: 800px) {
@@ -233,29 +233,31 @@ justify-content: center;
 
     .sub-fuso-text {
         font-size: 14px;
-      }
-    
-      .sub-event-text {
+    }
+
+    .sub-event-text {
         font-size: 12px;
-      }
-    
-      .sub-local-text {
+    }
+
+    .sub-local-text {
         font-size: 10px;
-      }
-      #Fuso-alert{
-        
+    }
+
+    #Fuso-alert {
+
         font-size: 10px;
-      }
-      .title-events {
+    }
+
+    .title-events {
         font-size: 22px;
     }
 
     #top-section-crono-title {
-      
+
         font-size: 28px;
-        
+
     }
-    
+
 
 }
 
@@ -266,13 +268,15 @@ justify-content: center;
 
         font-size: 1.3em;
     }
+
     .title-events {
         font-size: 20px;
     }
+
     #top-section-crono-title {
-      
+
         font-size: 24px;
-        
+
     }
 
 
@@ -284,14 +288,15 @@ justify-content: center;
 
         font-size: 1em;
     }
+
     .title-events {
         font-size: 18px;
     }
 
     #top-section-crono-title {
-      
+
         font-size: 22px;
-        
+
     }
 
 }
@@ -354,30 +359,32 @@ justify-content: center;
 
     .sub-fuso-text {
         font-size: 18px;
-      }
-    
-      .sub-event-text {
+    }
+
+    .sub-event-text {
         font-size: 16px;
-      }
-    
-      .sub-local-text {
+    }
+
+    .sub-local-text {
         font-size: 16px;
-      }
-      .title-events {
+    }
+
+    .title-events {
         font-size: 22px;
     }
+
     #top-section-crono-title {
-      
+
         font-size: 24px;
-        
+
     }
 
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
 
-.day-button {
-    font-size: 1.5em;
+    .day-button {
+        font-size: 1.5em;
+    }
 }
-  }

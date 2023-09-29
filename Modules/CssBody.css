@@ -50,53 +50,53 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    
+
 }
 
 ::-webkit-scrollbar {
     width: 8px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background-color: #969696;
     border-radius: 4px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+::-webkit-scrollbar-thumb:hover {
     background-color: var(--background2);
-  }
-  
-  ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
     background-color: #96969600;
-  }
-  
-  ::-webkit-scrollbar-corner {
+}
+
+::-webkit-scrollbar-corner {
     background-color: #f1f1f1;
-  }
-  
-  @media screen and (max-width: 500px) {
-  
+}
+
+@media screen and (max-width: 500px) {
+
     ::-webkit-scrollbar {
-      width: 0px;
+        width: 0px;
     }
-  
+
     ::-webkit-scrollbar-thumb {
-  
-      border-radius: 0px;
+
+        border-radius: 0px;
     }
-  
-  
-  }
-  
-  .Prog-events-fuso::-webkit-scrollbar-thumb {
+
+
+}
+
+.Prog-events-fuso::-webkit-scrollbar-thumb {
     background-color: #ffffff00;
     border-radius: 4px;
     transition: 1s;
-  }
-  
-  .Prog-events-fuso:hover::-webkit-scrollbar-thumb {
+}
+
+.Prog-events-fuso:hover::-webkit-scrollbar-thumb {
     background-color: #ffffffe0;
-  }
+}
 
 .container {
     width: 100%;
@@ -122,6 +122,7 @@ section {
     }
 
 }
+
 @media screen and (max-width: 1200px) {
     .container {
         max-width: 1100px;
@@ -144,7 +145,7 @@ section {
         height: 10vh;
     }
 
-    
+
 }
 
 @media screen and (max-width: 576px) {
