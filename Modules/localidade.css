@@ -22,7 +22,7 @@ iframe{
 }
 
 @media screen and (max-width: 768px) {
-    .localidade-container{
+    .localidade-wraper{
         flex-direction: column;
     }
 }
