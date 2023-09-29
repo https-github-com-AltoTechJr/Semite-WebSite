@@ -204,10 +204,10 @@
     width: 270px;
   }
 }
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 700px) {
   
   .carrossel{
-      width: 360px;
+      width: 520px;
       height: 80%;
       left: 20%;
   }
@@ -244,8 +244,12 @@
     bottom: 20px;
   }
   .text-content {
-    transform: translateY(65%);
+    transform: translateY(70%);
 }
+.carrossel{
+  left: 20%;
+}
+
  
 }
 
